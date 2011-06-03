@@ -208,7 +208,7 @@
 (global-set-key [(meta f12)] 'recentf-open-files)
 
 ;; set scratch buffer message
-(setq initial-scratch-message ";M-f12 for recent files.\n;C-x r <SPC> r \n;Record the position of point and the current buffer in register r \n;C-x r j r \n;Jump to the position and buffer saved in register r")
+(setq initial-scratch-message ";M-f12 for recent files.\n;M-f6 count word\n;S-f5 autocomplete mode/\n;S-f6 autopair mode.\n;C-x r <SPC> r \n;Record the position of point and the current buffer in register r \n;C-x r j r \n;Jump to the position and buffer saved in register r")
 
 ;;alias list buffer i buffer
 (defalias 'list-buffers 'ibuffer)
@@ -232,25 +232,22 @@
 
       (message "Words: %d. Chars: %d." wCnt charCnt)
       )))
+
 ;time-stamp
 (add-hook 'write-file-hooks 'time-stamp)
-(global-set-key [(meta f6)] 'word-count)
-
-;; tramp
-(add-to-list 'load-path "~/.emacs.d/tramp-2.1.19/lisp/")
-(require 'tramp)
-(setq tramp-default-method "ssh")
+(global-set-key [(meta f6)] 'count-word)
 
 ;;backup
 (setq backup-directory-alist
 '(("." . "~/emacs_backups")))
 
-;;flashcard
-;;(setq fc-base "~/.emacs.d/flashcard/jp")
-;; (setq fc-default-lang 'en)
-;; (add-to-list 'load-path "~/.emacs.d/flashcard")
-;; (load "~/.emacs.d/flashcard/fc")
-
 ;;rainbow
 (require 'rainbow-delimiters)
 ;;(setq-default frame-background-mode 'dark)
+
+;;autopair
+(add-to-list 'load-path "~/.emacs.d/autopair")
+(require 'autopair)
+(global-set-key [(S-f6)] 'autopair-mode)
+;;(autopair-global-mode 1)
+(setq autopair-autowrap t)
