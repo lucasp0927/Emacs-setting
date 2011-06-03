@@ -29,6 +29,7 @@
 ;;(add-to-list 'default-frame-alist '(font . "Consolas-13"))
 ;;(add-to-list 'default-frame-alist '(font . "Monaco-12"))
 (add-to-list 'default-frame-alist '(font . "Monospace-12"))
+;;(setq font-use-system-font t)
 
 (tool-bar-mode -1)
 (menu-bar-mode -1)

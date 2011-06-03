@@ -108,7 +108,7 @@
 ;;show key stroke fast
 (setq echo-keystrokes 0.1)
 
-;;fastnav
+;;Fastnav
 (require 'fastnav)
     (global-set-key "\M-z" 'zap-up-to-char-forward)
     (global-set-key "\M-Z" 'zap-up-to-char-backward)
@@ -208,7 +208,7 @@
 (global-set-key [(meta f12)] 'recentf-open-files)
 
 ;; set scratch buffer message
-(setq initial-scratch-message ";M-f12 for recent files.\n;M-f6 count word\n;S-f5 autocomplete mode/\n;S-f6 autopair mode.\n;C-x r <SPC> r \n;Record the position of point and the current buffer in register r \n;C-x r j r \n;Jump to the position and buffer saved in register r")
+(setq initial-scratch-message ";M-f12 for recent files.\n;M-f6 count word\n;S-f5 autocomplete mode/\n;S-f6 autopair mode.\n\n;C-x r <SPC> r \n;Record the position of point and the current buffer in register r \n;C-x r j r \n;Jump to the position and buffer saved in register r\n\n;C-x r m mark bookmark.\n;C-x r b goto bookmark.\n;C-x r l list bookmarks.")
 
 ;;alias list buffer i buffer
 (defalias 'list-buffers 'ibuffer)
