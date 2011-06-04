@@ -9,7 +9,7 @@
 ;;org-mode 
 ;;python-mode 
 ;;session 
-;;tabbar 
+;;autopair
 ;;template
 ;;window-number
 ;;maxframe
