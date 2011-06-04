@@ -3,7 +3,7 @@
 (setq interpreter-mode-alist (cons '("python" . python-mode)
 				   interpreter-mode-alist))
 (autoload 'python-mode "python-mode" "Python editing mode." t)
-
+(setq py-python-command  "/usr/bin/python2")
 
 
 ;;Ropemacs(http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/)
