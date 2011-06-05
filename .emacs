@@ -5,7 +5,6 @@
 ;;cdlatex 
 ;;cedet 
 ;;ecb 
-;;highlight-tail
 ;;org-mode 
 ;;python-mode 
 ;;session 
@@ -54,10 +53,6 @@
 ;;(load "desktop") 
 ;;(desktop-load-default) 
 ;;(desktop-read)
-
-;;mathematica
-;;(autoload 'math "math" "Starts Mathematica" t)
-;;(autoload 'math-mode "math") 
 
 ;; If not on AC power line, then display battery status on the mode line
 ;;(and (require 'battery nil t)
