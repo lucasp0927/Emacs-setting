@@ -271,3 +271,5 @@
   (setq ido-everywhere t)
   (ido-mode 1)
 (setq ido-create-new-buffer 'always)
+;; fix conflict with template.el
+(setq ido-last-directory-list nil)
