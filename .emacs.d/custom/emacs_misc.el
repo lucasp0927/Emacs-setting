@@ -16,7 +16,6 @@
 ;;Emacs is a text editor, make sure your text files end in a newline
 (setq require-final-newline 't)
 
-
 ;; map C-h to backspace
 (define-key key-translation-map [?\C-h] [?\C-?])
 ;(global-set-key (kbd "s-h") 'help-command)
@@ -37,10 +36,21 @@
 ;;(define-key global-map (kbd "C-c a") 'wy-go-to-char)
 
 
-;;让 Emacs 可以直接打开和显示图片。 
+;;让 Emacs 可以直接打开和显示图片。
 ;;(auto-image-file-mode)
 
-;;设置有用的个人信息。这在很多地方有用。 
+;;getting rid of the “yes or no” prompt and replace it with “y or n”:
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;;the annoying confirmation if a file or buffer does not exist when you use C-x C-f or C-x b.
+(setq confirm-nonexistent-file-or-buffer nil)
+
+;; prompt in Emacs 23.2 that asks you if you want to kill a buffer with a live process attached to it:
+(setq kill-buffer-query-functions
+  (remq 'process-kill-buffer-query-function
+         kill-buffer-query-functions))
+
+;;设置有用的个人信息。这在很多地方有用。
 (setq user-full-name "Lucas Peng")
 (setq user-mail-address "lucasp0927@gmail.com")
 
@@ -77,10 +87,10 @@
 (windmove-default-keybindings))
 
 ;;这是一个很小的函数。你是不是觉得 Emacs 在匹配的括号之间来回跳转的时候按 C-M-f 和 C-M-b 太麻烦了？vi的 % 就很方便，我们可以把 % 设置为匹配括号。可是你想输入 % 怎么办呢？
-;;一个很巧妙的解决方案就是，当 % 在括号上按下时，那么匹配括号，否则输入一个 %。你只需要在 .emacs 文件里加入这些东西就可以达到目的： 
+;;一个很巧妙的解决方案就是，当 % 在括号上按下时，那么匹配括号，否则输入一个 %。你只需要在 .emacs 文件里加入这些东西就可以达到目的：
 
 (global-set-key "%" 'match-paren)
-          
+
 (defun match-paren (arg)
   "Go to the matching paren if on a paren; otherwise insert %."
   (interactive "p")
@@ -101,9 +111,9 @@
  message-send-mail-function 'smtpmail-send-it
  smtpmail-smtp-service 587
  smtpmail-auth-credentials '(("smtp.gmail.com"
-              587
-              "lucasp0927@gmail.com"
-              nil)))
+	      587
+	      "lucasp0927@gmail.com"
+	      nil)))
 
 ;;show key stroke fast
 (setq echo-keystrokes 0.1)
@@ -152,12 +162,12 @@
 
 ;; IMAP
 ;;(setq elmo-imap4-default-server "imap.gmail.com")
-;;(setq elmo-imap4-default-user "lucasp0927@gmail.com") 
-;;(setq elmo-imap4-default-authenticate-type 'clear) 
+;;(setq elmo-imap4-default-user "lucasp0927@gmail.com")
+;;(setq elmo-imap4-default-authenticate-type 'clear)
 ;;(setq elmo-imap4-default-port '993)
 ;;(setq elmo-imap4-default-stream-type 'ssl)
 
-;;(setq elmo-imap4-use-modified-utf7 t) 
+;;(setq elmo-imap4-use-modified-utf7 t)
 
 ;; SMTP
 ;;(setq wl-smtp-connection-type 'starttls)
@@ -173,7 +183,7 @@
 ;;(setq wl-draft-folder "%[Gmail]Drafts") ; Gmail IMAP
 ;;(setq wl-trash-folder "%[Gmail]Trash") ; Gmail IMAP
 ;;
-;;(setq wl-folder-check-async t) 
+;;(setq wl-folder-check-async t)
 
 ;;(setq wl-dispose-folder-alist
 ;;     (cons '("^%inbox" . remove) wl-dispose-folder-alist))
@@ -197,7 +207,7 @@
 
 ;;放大縮小字體，像firefox一樣。
 (define-key global-map [?\C-=] 'text-scale-increase)
-(define-key global-map [?\C--] 'text-scale-decrease) 
+(define-key global-map [?\C--] 'text-scale-decrease)
 
 ;;recent file
 ;;recentf
@@ -227,8 +237,8 @@
       (setq charCnt (- end beginning))
       (goto-char beginning)
       (while (and (< (point) end)
-                  (re-search-forward "\\w+\\W*" end t))
-        (setq wCnt (1+ wCnt)))
+		  (re-search-forward "\\w+\\W*" end t))
+	(setq wCnt (1+ wCnt)))
 
       (message "Words: %d. Chars: %d." wCnt charCnt)
       )))
@@ -251,3 +261,13 @@
 (global-set-key [(S-f6)] 'autopair-mode)
 ;;(autopair-global-mode 1)
 (setq autopair-autowrap t)
+
+;;Add this to your .emacs and Emacs will then make the file executable if it is a script.
+(add-hook 'after-save-hook
+  'executable-make-buffer-file-executable-if-script-p)
+
+;;ido mode
+(setq ido-enable-flex-matching t)
+  (setq ido-everywhere t)
+  (ido-mode 1)
+(setq ido-create-new-buffer 'always)

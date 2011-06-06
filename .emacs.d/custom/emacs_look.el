@@ -16,14 +16,6 @@
 ;;    ("black" . 66)))
 ;;(highlight-tail-mode)
 
-
-;;tabber
-;;(require 'tabbar)
-;;(tabbar-mode)
-;;(global-set-key '[C-S-iso-lefttab] 'tabbar-backward)
-;;(global-set-key '[C-tab] 'tabbar-forward)
-;;(global-set-key '[C-s-tab] 'tabbar-forward-group)
-
 ;;Fonts
 ;;(set-default-font "FreeMono-10")
 ;;(add-to-list 'default-frame-alist '(font . "Consolas-13"))
@@ -52,8 +44,6 @@
 
 ;;transparent
  ;;(set-frame-parameter (selected-frame) 'alpha '(<active> [<inactive>]))
- (set-frame-parameter (selected-frame) 'alpha '(95 95))
- (add-to-list 'default-frame-alist '(alpha 95 95))
+;;(set-frame-parameter (selected-frame) 'alpha '(95 95))
+;; (add-to-list 'default-frame-alist '(alpha 95 95))
 
-;;test
-(ecb-activate)

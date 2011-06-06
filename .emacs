@@ -26,7 +26,8 @@
 ;;    (add-hook 'after-make-frame-functions
 ;;	      (lambda (frame)
 ;;		(with-selected-frame frame
-		  (load "emacs_max")
+;; no need to use maxframe if -mm is add to emacs command.
+;;		  (load "emacs_max")
 		  (load "emacs_look")
 ;;		  )))
 ;;	      (load "emacs_max")
@@ -63,7 +64,3 @@
 ;; enable narrow
 (put 'narrow-to-region 'disabled nil)
 
-;;ido mode
-(setq ido-enable-flex-matching t)
-  (setq ido-everywhere t)
-  (ido-mode 1)

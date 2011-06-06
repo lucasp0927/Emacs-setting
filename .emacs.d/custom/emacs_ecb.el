@@ -1,7 +1,7 @@
 ;;ecb
 (require 'ecb)
 (require 'ecb-autoloads)
-(setq ecb-auto-activate nil;自动启动ecb
+(setq auto-activate nil;自动启动ecb
 ;;ecb-layout-name "left-analyse"
 ecb-tip-of-the-day nil;不显示每日提醒
 ecb-auto-compatibility-check nil;
@@ -30,4 +30,4 @@ ecb-windows-width 0.2
 )
 ;;(custom-set-faces
 ;; )
-;;(ecb-activate)
+;;(ecb-deactivate)
