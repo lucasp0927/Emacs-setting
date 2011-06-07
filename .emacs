@@ -40,7 +40,7 @@
 (load "emacs_snippet")
 (load "emacs_latex")
 (load "emacs_autocomplete")
-(load "emacs_verilog")
+;;(load "emacs_verilog")
 (load "emacs_python")
 ;(require 'w3m-load)
 ;(setq w3m-default-display-inline-images t)

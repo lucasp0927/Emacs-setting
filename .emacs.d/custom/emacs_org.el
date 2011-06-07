@@ -53,17 +53,17 @@
 (scale 100)
 ))
 
-(global-set-key (kbd "C-c a") 'org-agenda)                                       ;; (5)
-   (setq org-todo-keywords '("TODO" "STARTED" "DONE"))                    ;; (6)
-;;   (setq org-agenda-include-diary t)                                                ;; (7)
-   (setq org-agenda-include-all-todo t)    
-(setq org-agenda-files (file-expand-wildcards "~/Dropbox/todo/*.org"))
-
-(setq org-agenda-custom-commands
-'(("h" "HomeWorks"
-((agenda "")
-(tags "HOMEWORK")
-(tags "STUDY")))))
+;;(global-set-key (kbd "C-c a") 'org-agenda)                                       ;; (5)
+;;   (setq org-todo-keywords '("TODO" "STARTED" "DONE"))                    ;; (6)
+;;;;   (setq org-agenda-include-diary t)                                                ;; (7)
+;;   (setq org-agenda-include-all-todo t)    
+;;(setq org-agenda-files (file-expand-wildcards "~/Dropbox/todo/*.org"))
+;;
+;;(setq org-agenda-custom-commands
+;;'(("h" "HomeWorks"
+;;((agenda "")
+;;(tags "HOMEWORK")
+;;(tags "STUDY")))))
 
 
 

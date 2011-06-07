@@ -1,0 +1,5 @@
+#name : for every line in file
+# --
+${1:filevar} = open(${filename},'r')
+for aline in $1:
+    $0

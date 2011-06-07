@@ -71,8 +71,7 @@
 ;顯示時間
 ;;(setq display-time-24hr-format t)
 ;;(setq display-time-interval 10)
-(display-time)
-
+;;(display-time)
 
 ;;对付重名 buffer
 (require 'uniquify)
