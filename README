@@ -1,0 +1,3 @@
+This is the emacs setting and ELips files collected by Lucas Peng.
+Put Emacs-setting to ~/.
+And link ~/Emacs-setting/.emacs and ~/Emacs-setting/.emacs.d to home directory.
