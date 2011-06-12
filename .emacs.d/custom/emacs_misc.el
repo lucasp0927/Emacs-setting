@@ -248,7 +248,9 @@
 
 ;;backup
 (setq backup-directory-alist
-'(("." . "~/emacs_backups")))
+      `((".*" . "~/emacs_backups")))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
 
 ;;rainbow
 (require 'rainbow-delimiters)
