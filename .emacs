@@ -47,6 +47,7 @@
 ;(setq w3m-use-cookies t)
 
 (require 'undo-tree)
+;;(require 'typing-speed)
 ;;Session and desktop  need to put at last
 ;;使用了这个扩展之后，你上次离开 Emacs 时的全局变量 (kill-ring，命令记录……)，局部变量，寄存器，打开的文件，修改过的文件和最后修改的位置，…… 全部都会被记录下来。 
 ; (require 'session)

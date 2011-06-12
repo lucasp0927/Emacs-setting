@@ -264,7 +264,9 @@
 ;;Add this to your .emacs and Emacs will then make the file executable if it is a script.
 (add-hook 'after-save-hook
   'executable-make-buffer-file-executable-if-script-p)
-
+;; timestamp
+(add-hook 'before-save-hook
+  'time-stamp)
 ;;ido mode
 (setq ido-enable-flex-matching t)
   (setq ido-everywhere t)
