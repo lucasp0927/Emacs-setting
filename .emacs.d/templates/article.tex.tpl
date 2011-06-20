@@ -1,12 +1,12 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage{fontspec,amsmath,amssymb,bm}
+\usepackage{xeCJK}
 \usepackage{graphics,graphicx,float,subfig}
 \usepackage{url}
 \usepackage[margin=2cm]{geometry}
-\usepackage{xeCJK}
 \usepackage{listings}
 \usepackage{lmodern}            % Use latin modern fonts 
-\usepackage[T1]{fontenc}    
+%\usepackage[T1]{fontenc}    %causing problem on older xelatex
 %\setmainfont{Times New Roman}
 % font setting under windows
 % \setmonofont{Consolas}
