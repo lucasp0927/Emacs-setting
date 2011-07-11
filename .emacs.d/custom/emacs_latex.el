@@ -43,8 +43,8 @@
       '(("Evince" "evince %o")))
 (add-hook 'LaTeX-mode-hook
 	  (lambda ()
-	    (setq TeX-view-program-selection '((output-pdf "Okular")
-					       (output-dvi "Okular")))))
+	    (setq TeX-view-program-selection '((output-pdf "Evince")
+					       (output-dvi "Evince")))))
 
 (require 'tex-site)
 (autoload 'reftex-mode "reftex" "RefTeX Minor Mode" t)
