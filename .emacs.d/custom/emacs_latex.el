@@ -37,9 +37,10 @@
     (setq TeX-PDF-mode t)
              ))
 ;; Viewer
+;; (setq TeX-view-program-list
+;;       '(("Okular" "okular --unique %o")))
 (setq TeX-view-program-list
-      '(("Okular" "okular --unique %o")))
-
+      '(("Evince" "evince %o")))
 (add-hook 'LaTeX-mode-hook
 	  (lambda ()
 	    (setq TeX-view-program-selection '((output-pdf "Okular")
