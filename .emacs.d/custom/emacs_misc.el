@@ -276,3 +276,28 @@
 (setq ido-create-new-buffer 'always)
 ;; fix conflict with template.el
 ;;(setq ido-last-directory-list nil)
+
+(setq dired-dwim-target t)
+;; Now, when you have dired of different dir in 2 panes,
+;; and when you press C to copy, the other dir in the split pane will be default destination. 
+
+;; allow dired to be able to delete or copy a whole dir.
+;; “always” means no asking. “top” means ask once. Any other symbol means ask each and every time for a dir and subdir.
+(setq dired-recursive-copies (quote always))
+(setq dired-recursive-deletes (quote top))
+
+;; In dired, you can press a instead of Enter to open the dir. This way, the previous dir will be automatically closed.
+
+;; If you want Enter and ^ (parent dir) to use the same buffer, put the following in your emacs init file:
+
+
+(add-hook 'dired-mode-hook
+ (lambda ()
+  (define-key dired-mode-map (kbd "<return>")
+    'dired-find-alternate-file) ; was dired-advertised-find-file
+  (define-key dired-mode-map (kbd "^")
+    (lambda () (interactive) (find-alternate-file "..")))
+  ; was dired-up-directory
+ ))
+
+
