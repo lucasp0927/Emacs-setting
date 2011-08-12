@@ -1,5 +1,5 @@
 (setq warning-suppress-types nil) ;;annoying compile error
-(setq inhibit-startup-message t)
+(setq inhibit-startup-message t) ;; disable the 'welcome' message
 
 (setq default-directory "~/")
 
@@ -54,11 +54,11 @@
 (setq user-full-name "Lucas Peng")
 (setq user-mail-address "lucasp0927@gmail.com")
 
-;; make emacs use the clipboard
+;; make emacs use the system clipboard, so that text copy in emacs can paste to other place.
 (setq x-select-enable-clipboard t)
 (setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
 
-;;outlinemode
+;;set f6 to shortcut of outlinemode
 (setq outline-minor-mode-prefix [(control o)])
 (global-set-key [f6] 'outline-minor-mode)
 
@@ -77,9 +77,9 @@
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
 
-;;window-number(C-x C-j number)
-(require 'window-number)
-(window-number-mode)
+;;window-number(C-x C-j number)---number is shown in the minibar.
+;;(require 'window-number)
+;;(window-number-mode)
 
 ;;wind move(use shift+arror to move window)
 (when (fboundp 'windmove-default-keybindings)
@@ -87,7 +87,6 @@
 
 ;;这是一个很小的函数。你是不是觉得 Emacs 在匹配的括号之间来回跳转的时候按 C-M-f 和 C-M-b 太麻烦了？vi的 % 就很方便，我们可以把 % 设置为匹配括号。可是你想输入 % 怎么办呢？
 ;;一个很巧妙的解决方案就是，当 % 在括号上按下时，那么匹配括号，否则输入一个 %。你只需要在 .emacs 文件里加入这些东西就可以达到目的：
-
 (global-set-key "%" 'match-paren)
 
 (defun match-paren (arg)
@@ -99,21 +98,21 @@
 
 ;;send mail by gmail.com (need to install curl starttls )
 ;; write mail by M-x mail and C-c C-c send the mail.
-(setq user-full-name "Lucas Peng")
-(setq user-mail-address "lucasp0927@gmail.com")
+;;(setq user-full-name "Lucas Peng")
+;;(setq user-mail-address "lucasp0927@gmail.com")
 
 ;; Configure outbound mail (SMTP)
-(setq smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
- smtpmail-smtp-server "smtp.gmail.com"
- smtpmail-default-smtp-server "smtp.gmail.com"
- send-mail-function 'smtpmail-send-it
- message-send-mail-function 'smtpmail-send-it
- smtpmail-smtp-service 587
- smtpmail-auth-credentials '(("smtp.gmail.com"
-	      587
-	      "lucasp0927@gmail.com"
-	      nil)))
-
+;;(setq smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+;; smtpmail-smtp-server "smtp.gmail.com"
+;; smtpmail-default-smtp-server "smtp.gmail.com"
+;; send-mail-function 'smtpmail-send-it
+;; message-send-mail-function 'smtpmail-send-it
+;; smtpmail-smtp-service 587
+;; smtpmail-auth-credentials '(("smtp.gmail.com"
+;;	      587
+;;	      "lucasp0927@gmail.com"
+;;	      nil)))
+;;
 ;;show key stroke fast
 (setq echo-keystrokes 0.1)
 
@@ -241,9 +240,6 @@
 
       (message "Words: %d. Chars: %d." wCnt charCnt)
       )))
-
-;time-stamp
-(add-hook 'write-file-hooks 'time-stamp)
 (global-set-key [(meta f6)] 'count-word)
 
 ;;backup
@@ -267,8 +263,10 @@
 (add-hook 'after-save-hook
   'executable-make-buffer-file-executable-if-script-p)
 ;; timestamp
+(add-hook 'write-file-hooks 'time-stamp)
 (add-hook 'before-save-hook
   'time-stamp)
+
 ;;ido mode
 (setq ido-enable-flex-matching t)
   (setq ido-everywhere t)
@@ -289,7 +287,6 @@
 ;; In dired, you can press a instead of Enter to open the dir. This way, the previous dir will be automatically closed.
 
 ;; If you want Enter and ^ (parent dir) to use the same buffer, put the following in your emacs init file:
-
 
 (add-hook 'dired-mode-hook
  (lambda ()
