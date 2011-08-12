@@ -59,7 +59,7 @@
 ;;folded
 (require 'semantic-tag-folding nil 'noerror)
 (global-semantic-tag-folding-mode 1)
-(define-key semantic-tag-folding-mode-map (kbd "C-c , -") 'semantic-tag-folding-fold-block)
+(define-key semantic-tag-folding-mode-map (kbd "C-c , _") 'semantic-tag-folding-fold-block)
 (define-key semantic-tag-folding-mode-map (kbd "C-c , +") 'semantic-tag-folding-show-block)
 (define-key semantic-tag-folding-mode-map (kbd "C-_") 'semantic-tag-folding-fold-all)
 (define-key semantic-tag-folding-mode-map (kbd "C-+") 'semantic-tag-folding-show-all)
