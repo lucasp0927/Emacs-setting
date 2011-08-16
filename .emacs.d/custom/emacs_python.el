@@ -6,6 +6,7 @@
 (setq py-python-command  "/usr/bin/python2")
 
 
+
 ;;Ropemacs(http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/)
 (add-to-list 'load-path "~/.emacs.d/vendor/pymacs-0.24-beta2")
 (require 'pymacs)
