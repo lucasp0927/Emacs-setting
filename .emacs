@@ -11,7 +11,6 @@
 ;;autopair
 ;;template
 ;;window-number
-;;maxframe
 
 ;;(server-start) ;; able to use emacsclient to start emacs fast.
 (add-to-list 'load-path "~/.emacs.d")
@@ -55,13 +54,7 @@
 ;;(load "desktop") 
 ;;(desktop-load-default) 
 ;;(desktop-read)
-
-;; If not on AC power line, then display battery status on the mode line
-;;(and (require 'battery nil t)
-;;     (functionp battery-status-function)
-;;     (or (equal (cdr (assoc ?L (funcall battery-status-function))) "on-line")
-;;         (display-battery-mode)))
-
+(setq-default indent-tabs-mode nil)
 ;; enable narrow
 (put 'narrow-to-region 'disabled nil)
 
