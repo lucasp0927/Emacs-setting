@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002, 2003, 2004, 2007 Richard Kim
 
-;; Author: Lucas Peng <lucaspeng@lucaspeng-laptop>
-;; Created: 2010-09-02 21:03:49+0800
+;; Author:  <lucaspeng@Desktop>
+;; Created: 2011-09-25 21:17:28+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

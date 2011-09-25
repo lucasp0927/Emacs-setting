@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002, 2003, 2009 David Ponce
 
-;; Author: Lucas Peng <lucaspeng@lucaspeng-laptop>
-;; Created: 2010-09-02 21:03:44+0800
+;; Author:  <lucaspeng@Desktop>
+;; Created: 2011-09-25 21:17:27+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

@@ -10,5 +10,9 @@ name: main.o
 main.o: main.c
 	$(CC) -I$(INCLUDE) $(CFLAGS) -c main.c
 
-clean:
+tidy :
+	$(VERBOSE)find . | egrep "#" | xargs rm -f
+	$(VERBOSE)find . | egrep "\~" | xargs rm -f
+
+clean:  tidy
 	rm main.o name

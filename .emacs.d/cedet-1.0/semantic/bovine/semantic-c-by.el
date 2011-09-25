@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Eric M. Ludlam
 
-;; Author: Lucas Peng <lucaspeng@lucaspeng-laptop>
-;; Created: 2010-09-02 21:03:54+0800
+;; Author:  <lucaspeng@Desktop>
+;; Created: 2011-09-25 21:17:29+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

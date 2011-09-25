@@ -3,7 +3,7 @@
 ;;; Code:
 
 
-;;;### (autoloads (rpm) "rpm" "rpm.el" (19575 43633))
+;;;### (autoloads (rpm) "rpm" "rpm.el" (20013 43000))
 ;;; Generated autoloads from rpm.el
 
 (autoload 'rpm "rpm" "\
@@ -13,8 +13,8 @@ Red Hat Package Management in Emacs.
 
 ;;;***
 
-;;;### (autoloads (gud-speedbar-buttons) "sb-gud" "sb-gud.el" (19575
-;;;;;;  43633))
+;;;### (autoloads (gud-speedbar-buttons) "sb-gud" "sb-gud.el" (20013
+;;;;;;  43000))
 ;;; Generated autoloads from sb-gud.el
 
 (autoload 'gud-speedbar-buttons "sb-gud" "\
@@ -27,7 +27,7 @@ off the specialized speedbar mode.
 ;;;***
 
 ;;;### (autoloads (Info-speedbar-buttons Info-speedbar-browser) "sb-info"
-;;;;;;  "sb-info.el" (19575 43633))
+;;;;;;  "sb-info.el" (20013 43000))
 ;;; Generated autoloads from sb-info.el
 
 (autoload 'Info-speedbar-browser "sb-info" "\
@@ -47,7 +47,7 @@ BUFFER is the buffer speedbar is requesting buttons for.
 ;;;***
 
 ;;;### (autoloads (rmail-speedbar-buttons) "sb-rmail" "sb-rmail.el"
-;;;;;;  (19575 43633))
+;;;;;;  (20013 43000))
 ;;; Generated autoloads from sb-rmail.el
 
 (autoload 'rmail-speedbar-buttons "sb-rmail" "\
@@ -60,8 +60,8 @@ current message into that RMAIL folder.
 
 ;;;***
 
-;;;### (autoloads (w3-speedbar-buttons) "sb-w3" "sb-w3.el" (19575
-;;;;;;  43633))
+;;;### (autoloads (w3-speedbar-buttons) "sb-w3" "sb-w3.el" (20013
+;;;;;;  43000))
 ;;; Generated autoloads from sb-w3.el
 
 (autoload 'w3-speedbar-buttons "sb-w3" "\
@@ -72,7 +72,7 @@ Create speedbar buttons for the current web BUFFER displayed in w3 mode.
 ;;;***
 
 ;;;### (autoloads (speedbar-get-focus speedbar-frame-mode) "speedbar"
-;;;;;;  "speedbar.el" (19575 43633))
+;;;;;;  "speedbar.el" (20013 43000))
 ;;; Generated autoloads from speedbar.el
 
 (defalias 'speedbar 'speedbar-frame-mode)
@@ -96,9 +96,17 @@ selected.  If the speedbar frame is active, then select the attached frame.
 
 ;;;***
 
-;;;### (autoloads nil nil ("bigclock.el" "dframe.el" "sb-ant.el"
-;;;;;;  "sb-html.el" "sb-image.el" "sb-texinfo.el" "speedbar-load.el")
-;;;;;;  (19583 41120 732012))
+;;;### (autoloads nil nil ("../../../../.emacs.d/cedet-1.0/speedbar/bigclock.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/dframe.el" "../../../../.emacs.d/cedet-1.0/speedbar/rpm.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/sb-ant.el" "../../../../.emacs.d/cedet-1.0/speedbar/sb-gud.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/sb-html.el" "../../../../.emacs.d/cedet-1.0/speedbar/sb-image.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/sb-info.el" "../../../../.emacs.d/cedet-1.0/speedbar/sb-rmail.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/sb-texinfo.el" "../../../../.emacs.d/cedet-1.0/speedbar/sb-w3.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/speedbar-load.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/speedbar-loaddefs.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.0/speedbar/speedbar.el" "bigclock.el"
+;;;;;;  "dframe.el" "sb-ant.el" "sb-html.el" "sb-image.el" "sb-texinfo.el"
+;;;;;;  "speedbar-load.el") (20095 10725 409309))
 
 ;;;***
 
