@@ -299,4 +299,5 @@
 
 (setq-default indent-tabs-mode nil) ; always replace tabs with spaces
 (setq-default tab-width 4) ; set tab width to 4 for all buffers
-
+;;The variable redisplay-dont-pause, when set to t, will cause Emacs to fully redraw the display before it processes queued input events. 
+(setq redisplay-dont-pause t)
