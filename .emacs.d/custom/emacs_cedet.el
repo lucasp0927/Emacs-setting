@@ -54,6 +54,7 @@
                                                    (semantic-current-tag))
                         (setq first (cdr (car (cdr alist)))))
                     (semantic-mrub-switch-tags first))))
+(define-key c-mode-base-map [M-S-f12] 'semantic-analyze-proto-impl-toggle)
 
 
 ;;folded
