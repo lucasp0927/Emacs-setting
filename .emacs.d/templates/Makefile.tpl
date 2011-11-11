@@ -1,18 +1,33 @@
-all: name
+TARGET = 
+
+_SRCS := main.c
+
 CC = gcc
-#INSTDIR = /usr/local/bin
-INCLUDE = .
-CFLAGS = 
 
-name: main.o
-	$(CC) -o name main.o
+SRCDIR = ./src
+BINDIR = ./bin
+INCLUDE = ./include
+OBJDIR = ./obj
 
-main.o: main.c
-	$(CC) -I$(INCLUDE) $(CFLAGS) -c main.c
+_OBJS := $(patsubst %.c,%.o,$(_SRCS))
+SRCS = $(patsubst %,$(SRCDIR)/%,$(_SRCS))
+OBJS = $(patsubst %,$(OBJDIR)/%,$(_OBJS))
+
+CFLAGS = -O3 -Wall
+CGLAGS = -g -Wall
+
+all:: $(TARGET)
+
+$(TARGET): ${OBJS}
+	$(CC) -o $(BINDIR)/$@ $^
+
+$(OBJDIR)/%.o: $(SRCDIR)/%.c
+	$(CC) -I$(INCLUDE) $(CFLAGS) -o $@ -c $<
 
 tidy :
 	$(VERBOSE)find . | egrep "#" | xargs rm -f
 	$(VERBOSE)find . | egrep "\~" | xargs rm -f
 
 clean:  tidy
-	rm main.o name
+	rm $(OBJS) $(BINDIR)/*
+
