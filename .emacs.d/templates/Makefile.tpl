@@ -29,5 +29,5 @@ tidy :
 	$(VERBOSE)find . | egrep "\~" | xargs rm -f
 
 clean:  tidy
-	rm $(OBJS) $(BINDIR)/*
+	rm $(OBJDIR)/* $(BINDIR)/*
 
