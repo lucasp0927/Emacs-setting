@@ -302,6 +302,12 @@
 ;;The variable redisplay-dont-pause, when set to t, will cause Emacs to fully redraw the display before it processes queued input events. 
 (setq redisplay-dont-pause t)
 ;; folding
-          (autoload 'folding-mode          "folding" "Folding mode" t)
-          (autoload 'turn-off-folding-mode "folding" "Folding mode" t)
-          (autoload 'turn-on-folding-mode  "folding" "Folding mode" t)
+          ;; (autoload 'folding-mode          "folding" "Folding mode" t)
+          ;; (autoload 'turn-off-folding-mode "folding" "Folding mode" t)
+          ;; (autoload 'turn-on-folding-mode  "folding" "Folding mode" t)
+          (load "folding" 'nomessage 'noerror)
+          (folding-mode-add-find-file-hook)
+          (folding-add-to-marks-list
+           'c-mode "// {{{" "// }}}"nil t)
+          (folding-add-to-marks-list
+           'c++-mode "// {{{" "// }}}"nil t)
