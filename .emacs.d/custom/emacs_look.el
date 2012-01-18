@@ -39,8 +39,11 @@
 ;;     (color-theme-initialize)))
 ;;     (color-theme-blackboard)))
 (add-to-list 'load-path "~/.emacs.d")
-(require 'zenburn)
-(zenburn)
+;; (require 'zenburn)
+;; (zenburn)
+(load "~/.emacs.d/color-theme-molokai.el")
+(require 'color-theme-molokai)
+(color-theme-molokai)
 
 ;;transparent
  ;;(set-frame-parameter (selected-frame) 'alpha '(<active> [<inactive>]))
