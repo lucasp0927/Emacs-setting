@@ -31,19 +31,19 @@
 ;;syntax highlight
 (global-font-lock-mode t)
 
-;;theme
-(add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0/")
-(require 'color-theme)
-;;(eval-after-load "color-theme"
-;;  '(progn
-;;     (color-theme-initialize)))
-;;     (color-theme-blackboard)))
-(add-to-list 'load-path "~/.emacs.d")
-;; (require 'zenburn)
-;; (zenburn)
-(load "~/.emacs.d/color-theme-molokai.el")
-(require 'color-theme-molokai)
-(color-theme-molokai)
+;; ;;theme
+;; (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0/")
+;; (require 'color-theme)
+;; ;;(eval-after-load "color-theme"
+;; ;;  '(progn
+;; ;;     (color-theme-initialize)))
+;; ;;     (color-theme-blackboard)))
+;; (add-to-list 'load-path "~/.emacs.d")
+;; ;; (require 'zenburn)
+;; ;; (zenburn)
+;; (load "~/.emacs.d/color-theme-molokai.el")
+;; (require 'color-theme-molokai)
+;; (color-theme-molokai)
 
 ;;transparent
  ;;(set-frame-parameter (selected-frame) 'alpha '(<active> [<inactive>]))
