@@ -1,5 +1,5 @@
 ;;cedet
-(load-file "~/.emacs.d/cedet-1.0/common/cedet.elc")
+(load-file "~/.emacs.d/cedet-1.1/common/cedet.elc")
 ;;(global-ede-mode 1)                      ; Enable the Project management system
 (semantic-load-enable-gaudy-code-helpers)   ; Enable prototype help and smart completion 
 (semantic-load-enable-semantic-debugging-helpers)

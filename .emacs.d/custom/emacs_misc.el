@@ -222,7 +222,7 @@
 (defalias 'list-buffers 'ibuffer)
 
 ;;show ascii
-(require 'ascii)
+;;(require 'ascii)
 
 ;count word
 (defun count-word (beginning end)
