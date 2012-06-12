@@ -4,8 +4,8 @@
 (setq scroll-step 1)
 ;(load "auctex.el" nil t t)
 ;(load "preview-latex.el" nil t t)
-(load "~/.emacs.d/auctex.el" nil t t)
-(load "~/.emacs.d/preview-latex.el" nil t t)
+;;(load "~/.emacs.d/auctex.el" nil t t)
+;;(load "~/.emacs.d/preview-latex.el" nil t t)
 ;;(load "~/.emacs.d/auctex-11.86/auctex.el" nil t t)
 
 (setq TeX-auto-save t)
@@ -46,7 +46,7 @@
 	    (setq TeX-view-program-selection '((output-pdf "Evince")
 					       (output-dvi "Evince")))))
 
-(require 'tex-site)
+;;(require 'tex-site)
 (autoload 'reftex-mode "reftex" "RefTeX Minor Mode" t)
 (autoload 'turn-on-reftex "reftex" "RefTeX Minor Mode" nil)
 (autoload 'reftex-citation "reftex-cite" "Make citation" nil)
