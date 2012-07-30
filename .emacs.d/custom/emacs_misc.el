@@ -1,4 +1,4 @@
-(setq warning-suppress-types nil) ;;annoying compile error
+;(setq warning-suppress-types nil) ;;annoying compile error
 (setq inhibit-startup-message t) ;; disable the 'welcome' message
 
 (setq default-directory "~/")
@@ -56,7 +56,14 @@
 
 ;; make emacs use the system clipboard, so that text copy in emacs can paste to other place.
 (setq x-select-enable-clipboard t)
-(setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
+;; this line causes cut/paste errors under windows (emacs 24)
+(if (eq system-type 'gnu-linux) (setq interprogram-paste-function 'x-cut-buffer-or-selection-value) )
+;; (setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
+
+;; this alternative causes errors under linux (emacs 24)
+(if (eq system-type 'windows-nt) (setq interprogram-paste-function 'x-selection-value) )
+;;(setq interprogram-paste-function 'x-selection-value)
+;;(setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
 
 ;;set f6 to shortcut of outlinemode
 (setq outline-minor-mode-prefix [(control o)])

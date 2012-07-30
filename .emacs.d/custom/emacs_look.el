@@ -19,8 +19,12 @@
 ;;Fonts
 ;;(set-default-font "FreeMono-10")
 ;;(add-to-list 'default-frame-alist '(font . "Consolas-13"))
-;;(add-to-list 'default-frame-alist '(font . "Monaco-12"))
-(add-to-list 'default-frame-alist '(font . "Monospace-12"))
+(when (eq system-type 'darwin)
+  (add-to-list 'default-frame-alist '(font . "Monaco-14"))
+)
+(when (eq system-type 'gnu-linux)
+  (add-to-list 'default-frame-alist '(font . "Monospace-12"))
+)
 ;;(setq font-use-system-font t)
 
 (tool-bar-mode -1)
