@@ -22,7 +22,7 @@
 (when (eq system-type 'darwin)
   (add-to-list 'default-frame-alist '(font . "Monaco-14"))
 )
-(when (eq system-type 'gnu-linux)
+(when (eq system-type 'gnu/linux)
   (add-to-list 'default-frame-alist '(font . "Monospace-12"))
 )
 ;;(setq font-use-system-font t)

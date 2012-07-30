@@ -57,7 +57,7 @@
 ;; make emacs use the system clipboard, so that text copy in emacs can paste to other place.
 (setq x-select-enable-clipboard t)
 ;; this line causes cut/paste errors under windows (emacs 24)
-(if (eq system-type 'gnu-linux) (setq interprogram-paste-function 'x-cut-buffer-or-selection-value) )
+(if (eq system-type 'gnu/linux) (setq interprogram-paste-function 'x-cut-buffer-or-selection-value) )
 ;; (setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
 
 ;; this alternative causes errors under linux (emacs 24)

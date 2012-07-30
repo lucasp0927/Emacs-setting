@@ -40,7 +40,7 @@
 (load "emacs_latex")
 (load "emacs_autocomplete")
 ;;(load "emacs_verilog")
-(when (eq system-type 'gnu-linux) ;; linux specific settings
+(when (eq system-type 'gnu/linux) ;; linux specific settings
   (load "emacs_python")
 )
 ;(require 'w3m-load)
