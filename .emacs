@@ -11,7 +11,15 @@
 ;;autopair
 ;;template
 ;;window-number
-
+;; key bindings
+(when (eq system-type 'darwin) ;; mac specific settings
+ (setq mac-option-modifier 'alt)
+ (setq mac-command-modifier 'meta)
+ (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
+; sane path
+ (setq path "/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin")
+(setenv "PATH" path)
+ )
 ;;(server-start) ;; able to use emacsclient to start emacs fast.
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/ecb-snap")
@@ -40,9 +48,9 @@
 (load "emacs_latex")
 (load "emacs_autocomplete")
 ;;(load "emacs_verilog")
-;;(when (eq system-type 'gnu/linux) ;; linux specific settings
+(when (eq system-type 'gnu/linux) ;; linux specific settings
   (load "emacs_python")
-;;)
+)
 ;(require 'w3m-load)
 ;(setq w3m-default-display-inline-images t)
 ;(setq w3m-use-cookies t)
@@ -77,12 +85,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-;; key bindings
-(when (eq system-type 'darwin) ;; mac specific settings
- (setq mac-option-modifier 'alt)
- (setq mac-command-modifier 'meta)
- (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
-; sane path
-(setq path "/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin")
-(setenv "PATH" path)
- )
+
+

@@ -3,9 +3,12 @@
 (setq interpreter-mode-alist (cons '("python" . python-mode)
 				   interpreter-mode-alist))
 (autoload 'python-mode "python-mode" "Python editing mode." t)
-(setq py-python-command  "/usr/bin/python2")
-
-
+(when (eq system-type 'gnu/linux) ;; linux specific settings
+  (setq py-python-command  "/usr/bin/python2")
+)
+(when (eq system-type 'darwin) ;; linux specific settings
+  (setq py-python-command  "/usr/local/bin/python2")
+)
 
 ;;Ropemacs(http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/)
 (add-to-list 'load-path "~/.emacs.d/vendor/pymacs-0.24-beta2")
