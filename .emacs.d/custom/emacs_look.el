@@ -28,7 +28,7 @@
 ;;(setq font-use-system-font t)
 
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+;;(menu-bar-mode -1)
 ;;(set-scroll-bar-mode nil)
 (global-set-key [f2] 'menu-bar-mode)
 (setq column-number-mode t) 
