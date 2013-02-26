@@ -32,9 +32,9 @@
 :table-of-contents nil
 :style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
 :style-include-default t
-:author-info nil
+:author-info t
 :email-info nil
-:creator-info nil
+:creator-info t
 )
 ("wiki2"
 :base-directory "~/WikiNotes/org/"
