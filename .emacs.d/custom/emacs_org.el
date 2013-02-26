@@ -21,7 +21,8 @@
  (setq org-export-with-LaTeX-fragments t)
 ;;    (require 'org-publish)
 (setq org-publish-project-alist
-'(("wiki"
+'(
+("wikinotes"
 :base-directory "~/WikiNotes/org/"
 :base-extension "org"
 :publishing-directory "~/WikiNotes/publish/"
@@ -36,13 +37,15 @@
 :email-info nil
 :creator-info t
 )
-("wiki2"
-:base-directory "~/WikiNotes/org/"
-:base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-:publishing-directory "~/WikiNotes/publish/"
-:recursive t
-:publishing-function org-publish-attachment)
-("website" :components ("wiki" "wiki2"))
+("org-static"
+ :base-directory "~/WikiNotes/org"
+ :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
+ :publishing-directory "~/WikiNotes/publish"
+ :recursive t
+ :publishing-function org-publish-attachment
+)
+
+("lucas" :components ("wikinotes" "org-static"))
 ))
 ;;(setq org-export-with-LaTeX-fragments 'dvipng)
 
