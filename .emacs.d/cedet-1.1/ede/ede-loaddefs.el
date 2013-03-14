@@ -1,11 +1,11 @@
-;;; ede-loaddefs.el --- Auto-generated CEDET autoloads
+;;; ede-loaddefs.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
 
 ;;;### (autoloads (autoconf-parameters-for-macro) "autoconf-edit"
-;;;;;;  "autoconf-edit.el" (20362 59692))
-;;; Generated autoloads from autoconf-edit.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/autoconf-edit.el" "39fbc7110cba6a50ad6ba6d667d6d793")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/autoconf-edit.el
 
 (autoload 'autoconf-parameters-for-macro "autoconf-edit" "\
 Retrieve the parameters to MACRO.
@@ -18,8 +18,9 @@ Returns a list of the arguments passed into MACRO as strings.
 ;;;### (autoloads (ede-target-parent ede-parent-project ede-load-project-file
 ;;;;;;  project-make-dist project-compile-target project-compile-project
 ;;;;;;  project-edit-file-target ede-compile-target ede-remove-file
-;;;;;;  global-ede-mode) "ede" "ede.el" (20362 59692))
-;;; Generated autoloads from ede.el
+;;;;;;  global-ede-mode) "ede" "../../../../.emacs.d/cedet-1.1/ede/ede.el"
+;;;;;;  "147eda01ddaa0e38126c01ab2bedd786")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede.el
 
 (defvar ede-projects nil "\
 A list of all active projects currently loaded in Emacs.")
@@ -88,9 +89,9 @@ could become slow in time.
 
 ;;;***
 
-;;;### (autoloads (ede-android-load) "ede-android" "ede-android.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from ede-android.el
+;;;### (autoloads (ede-android-load) "ede-android" "../../../../.emacs.d/cedet-1.1/ede/ede-android.el"
+;;;;;;  "698b0dc2eb691dce3d6d3811a75cb5ca")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-android.el
 
 (autoload 'ede-android-load "ede-android" "\
 Return an Android Project object if there is a match.
@@ -107,8 +108,9 @@ ROOTPROJ is nil, since there is only one project.
 ;;;***
 
 ;;;### (autoloads (ede-arduino-load ede-arduino-file ede-arduino-root)
-;;;;;;  "ede-arduino" "ede-arduino.el" (20362 59692))
-;;; Generated autoloads from ede-arduino.el
+;;;;;;  "ede-arduino" "../../../../.emacs.d/cedet-1.1/ede/ede-arduino.el"
+;;;;;;  "e864f2e3d282d7c78a38ebc607b89319")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-arduino.el
 
 (autoload 'ede-arduino-root "ede-arduino" "\
 Get the root project directory for DIR.
@@ -141,8 +143,9 @@ ROOTPROJ is nil, sinc there is only one project for a directory tree.
 
 ;;;***
 
-;;;### (autoloads nil "ede-auto" "ede-auto.el" (20362 59692))
-;;; Generated autoloads from ede-auto.el
+;;;### (autoloads nil "ede-auto" "../../../../.emacs.d/cedet-1.1/ede/ede-auto.el"
+;;;;;;  "4c0ab17e68ac2c5b4634febc2bbbcc05")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-auto.el
 
 (eieio-defclass-autoload 'ede-project-autoload 'nil "ede-auto" "Class representing minimal knowledge set to run preliminary EDE functions.\nWhen more advanced functionality is needed from a project type, that projects\ntype is required and the load function used.")
 
@@ -150,8 +153,9 @@ ROOTPROJ is nil, sinc there is only one project for a directory tree.
 
 ;;;### (autoloads (ede-adebug-project-root ede-adebug-project-parent
 ;;;;;;  ede-adebug-project ede-documentation-files ede-description
-;;;;;;  ede-name) "ede-base" "ede-base.el" (20362 59692))
-;;; Generated autoloads from ede-base.el
+;;;;;;  ede-name) "ede-base" "../../../../.emacs.d/cedet-1.1/ede/ede-base.el"
+;;;;;;  "665a7546f689df928c27b13fe3924dec")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-base.el
 
 (eieio-defclass-autoload 'ede-target '(eieio-speedbar-directory-button) "ede-base" "A target is a structure that describes a file set that produces something.\nTargets, as with 'Make', is an entity that will manage a file set \nand knows how to compile or otherwise transform those files into some\nother desired outcome.")
 
@@ -195,8 +199,9 @@ Display the results as a debug list.
 ;;;***
 
 ;;;### (autoloads (ede-cpp-root-load ede-cpp-root-project-root ede-cpp-root-project-file-for-dir)
-;;;;;;  "ede-cpp-root" "ede-cpp-root.el" (20362 59692))
-;;; Generated autoloads from ede-cpp-root.el
+;;;;;;  "ede-cpp-root" "../../../../.emacs.d/cedet-1.1/ede/ede-cpp-root.el"
+;;;;;;  "cc4c35c9fe6f638d68accdff154db851")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-cpp-root.el
 
 (autoload 'ede-cpp-root-project-file-for-dir "ede-cpp-root" "\
 Return a full file name to the project file stored in DIR.
@@ -222,8 +227,8 @@ ROOTPROJ is nil, since there is only one project.
 
 ;;;### (autoloads (ede-project-sort-targets ede-customize-target
 ;;;;;;  ede-customize-current-target ede-customize-project) "ede-custom"
-;;;;;;  "ede-custom.el" (20362 59692))
-;;; Generated autoloads from ede-custom.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-custom.el" "b42e1cd329e957b4465cf302f90f89d4")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-custom.el
 
 (autoload 'ede-customize-project "ede-custom" "\
 Edit fields of the current project through EIEIO & Custom.
@@ -254,8 +259,8 @@ Create a custom-like buffer for sorting targets of current project.
 ;;;***
 
 ;;;### (autoloads (ede-emacs-load ede-emacs-project-root) "ede-emacs"
-;;;;;;  "ede-emacs.el" (20362 59692))
-;;; Generated autoloads from ede-emacs.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-emacs.el" "53db04c318af4c654688681ca7ce298e")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-emacs.el
 
 (autoload 'ede-emacs-project-root "ede-emacs" "\
 Get the root directory for DIR.
@@ -276,9 +281,9 @@ ROOTPROJ is nil, since there is only one project.
 
 ;;;***
 
-;;;### (autoloads (ede-find-file) "ede-files" "ede-files.el" (20362
-;;;;;;  59692))
-;;; Generated autoloads from ede-files.el
+;;;### (autoloads (ede-find-file) "ede-files" "../../../../.emacs.d/cedet-1.1/ede/ede-files.el"
+;;;;;;  "6f5ffbcb7718d2018e0de127f3c1e38f")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-files.el
 
 (autoload 'ede-find-file "ede-files" "\
 Find FILE in project.  FILE can be specified without a directory.
@@ -290,8 +295,9 @@ the current EDE project.
 ;;;***
 
 ;;;### (autoloads (ede-enable-generic-projects ede-generic-load)
-;;;;;;  "ede-generic" "ede-generic.el" (20362 59692))
-;;; Generated autoloads from ede-generic.el
+;;;;;;  "ede-generic" "../../../../.emacs.d/cedet-1.1/ede/ede-generic.el"
+;;;;;;  "45810a927914a26d772b5bb0b4d0c9b3")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-generic.el
 
 (autoload 'ede-generic-load "ede-generic" "\
 Return a Generic Project object if there is a match.
@@ -309,8 +315,8 @@ Enable generic project loaders.
 ;;;***
 
 ;;;### (autoloads (ede-linux-load ede-linux-project-root) "ede-linux"
-;;;;;;  "ede-linux.el" (20362 59692))
-;;; Generated autoloads from ede-linux.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-linux.el" "bbe9ab034d6f52c8f43a41eeba5095c4")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-linux.el
 
 (autoload 'ede-linux-project-root "ede-linux" "\
 Get the root directory for DIR.
@@ -331,9 +337,9 @@ ROOTPROJ is nil, since there is only one project.
 
 ;;;***
 
-;;;### (autoloads (ede-enable-locate-on-project) "ede-locate" "ede-locate.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from ede-locate.el
+;;;### (autoloads (ede-enable-locate-on-project) "ede-locate" "../../../../.emacs.d/cedet-1.1/ede/ede-locate.el"
+;;;;;;  "ac29c91ec6b0acc6b4c14716686572f7")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-locate.el
 
 (autoload 'ede-enable-locate-on-project "ede-locate" "\
 Enable an EDE locate feature on PROJECT.
@@ -344,9 +350,9 @@ based on `ede-locate-setup-options'.
 
 ;;;***
 
-;;;### (autoloads (ede-m3-ede-items) "ede-m3" "ede-m3.el" (20362
-;;;;;;  59692))
-;;; Generated autoloads from ede-m3.el
+;;;### (autoloads (ede-m3-ede-items) "ede-m3" "../../../../.emacs.d/cedet-1.1/ede/ede-m3.el"
+;;;;;;  "1c16a635e20b1f4fc1b243b31847e764")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-m3.el
 
 (autoload 'ede-m3-ede-items "ede-m3" "\
 Return a list of menu items based on EDE project stats.
@@ -355,9 +361,9 @@ Return a list of menu items based on EDE project stats.
 
 ;;;***
 
-;;;### (autoloads (ede-make-check-version) "ede-make" "ede-make.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from ede-make.el
+;;;### (autoloads (ede-make-check-version) "ede-make" "../../../../.emacs.d/cedet-1.1/ede/ede-make.el"
+;;;;;;  "e20bbda0d8351d244662ad971eb430ec")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-make.el
 
 (autoload 'ede-make-check-version "ede-make" "\
 Check the version of GNU Make installed.
@@ -370,9 +376,9 @@ If NOERROR is nil, then throw an error on failure.  Return t otherwise.
 
 ;;;***
 
-;;;### (autoloads (ede-pmake-varname) "ede-pmake" "ede-pmake.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from ede-pmake.el
+;;;### (autoloads (ede-pmake-varname) "ede-pmake" "../../../../.emacs.d/cedet-1.1/ede/ede-pmake.el"
+;;;;;;  "f9ddcf890bbd60dae13700ea066ceea6")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-pmake.el
 
 (autoload 'ede-pmake-varname "ede-pmake" "\
 Convert OBJ into a variable name name.
@@ -382,16 +388,17 @@ Change .  to _ in the variable name.
 
 ;;;***
 
-;;;### (autoloads nil "ede-proj" "ede-proj.el" (20362 59692))
-;;; Generated autoloads from ede-proj.el
+;;;### (autoloads nil "ede-proj" "../../../../.emacs.d/cedet-1.1/ede/ede-proj.el"
+;;;;;;  "20a4b1060212585d4dc37714daef7584")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-proj.el
 
 (add-to-list 'auto-mode-alist '("Project\\.ede$" . emacs-lisp-mode))
 
 ;;;***
 
 ;;;### (autoloads (ede-shell-buffer ede-shell-run-something) "ede-shell"
-;;;;;;  "ede-shell.el" (20362 59692))
-;;; Generated autoloads from ede-shell.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-shell.el" "e397d37d7f0111b3efdd764ce0197360")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-shell.el
 
 (autoload 'ede-shell-run-something "ede-shell" "\
 Create a shell to run stuff for TARGET.
@@ -407,8 +414,8 @@ Get the buffer for running shell commands for TARGET.
 ;;;***
 
 ;;;### (autoloads (ede-srecode-insert ede-srecode-setup) "ede-srecode"
-;;;;;;  "ede-srecode.el" (20362 59692))
-;;; Generated autoloads from ede-srecode.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-srecode.el" "c864bdd70b4a692b139701ae9535702b")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-srecode.el
 
 (autoload 'ede-srecode-setup "ede-srecode" "\
 Update various paths to get SRecode to identify our macros.
@@ -426,9 +433,9 @@ Note: Just like `srecode-insert', but templates found in 'ede app.
 
 ;;;***
 
-;;;### (autoloads (ede-update-version) "ede-util" "ede-util.el" (20362
-;;;;;;  59692))
-;;; Generated autoloads from ede-util.el
+;;;### (autoloads (ede-update-version) "ede-util" "../../../../.emacs.d/cedet-1.1/ede/ede-util.el"
+;;;;;;  "12c1e889ac8a22b922a24d2ae500d727")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/ede/ede-util.el
 
 (autoload 'ede-update-version "ede-util" "\
 Update the current projects main version number.
@@ -438,13 +445,28 @@ Argument NEWVERSION is the version number to use in the current project.
 
 ;;;***
 
-;;;### (autoloads nil nil ("autoconf-compat.el" "ede-dired.el" "ede-load.el"
-;;;;;;  "ede-pconf.el" "ede-proj-archive.el" "ede-proj-aux.el" "ede-proj-comp.el"
-;;;;;;  "ede-proj-elisp.el" "ede-proj-info.el" "ede-proj-misc.el"
-;;;;;;  "ede-proj-obj.el" "ede-proj-prog.el" "ede-proj-scheme.el"
-;;;;;;  "ede-proj-shared.el" "ede-proj-skel.el" "ede-source.el" "ede-speedbar.el"
-;;;;;;  "ede-system.el" "makefile-edit.el" "project-am.el") (20436
-;;;;;;  56497 505278))
+;;;### (autoloads nil nil ("../../../../.emacs.d/cedet-1.1/ede/autoconf-compat.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/autoconf-edit.el" "../../../../.emacs.d/cedet-1.1/ede/ede-android.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-arduino.el" "../../../../.emacs.d/cedet-1.1/ede/ede-auto.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-base.el" "../../../../.emacs.d/cedet-1.1/ede/ede-cpp-root.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-custom.el" "../../../../.emacs.d/cedet-1.1/ede/ede-dired.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-emacs.el" "../../../../.emacs.d/cedet-1.1/ede/ede-files.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-generic.el" "../../../../.emacs.d/cedet-1.1/ede/ede-linux.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-load.el" "../../../../.emacs.d/cedet-1.1/ede/ede-locate.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-m3.el" "../../../../.emacs.d/cedet-1.1/ede/ede-make.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-pconf.el" "../../../../.emacs.d/cedet-1.1/ede/ede-pmake.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj-archive.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj-aux.el" "../../../../.emacs.d/cedet-1.1/ede/ede-proj-comp.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj-elisp.el" "../../../../.emacs.d/cedet-1.1/ede/ede-proj-info.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj-misc.el" "../../../../.emacs.d/cedet-1.1/ede/ede-proj-obj.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj-prog.el" "../../../../.emacs.d/cedet-1.1/ede/ede-proj-scheme.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj-shared.el" "../../../../.emacs.d/cedet-1.1/ede/ede-proj-skel.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-proj.el" "../../../../.emacs.d/cedet-1.1/ede/ede-shell.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-source.el" "../../../../.emacs.d/cedet-1.1/ede/ede-speedbar.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-srecode.el" "../../../../.emacs.d/cedet-1.1/ede/ede-system.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/ede-util.el" "../../../../.emacs.d/cedet-1.1/ede/ede.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/ede/makefile-edit.el" "../../../../.emacs.d/cedet-1.1/ede/project-am.el")
+;;;;;;  (20620 56599 222838))
 
 ;;;***
 

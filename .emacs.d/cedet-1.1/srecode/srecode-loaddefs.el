@@ -1,11 +1,12 @@
-;;; srecode-loaddefs.el --- Auto-generated CEDET autoloads
+;;; srecode-loaddefs.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
 
 ;;;### (autoloads (srecode-semantic-handle-:android) "srecode-android"
-;;;;;;  "srecode-android.el" (20362 59692))
-;;; Generated autoloads from srecode-android.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-android.el"
+;;;;;;  "324fc4bce29cb693020e480e28a447cd")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-android.el
 
 (autoload 'srecode-semantic-handle-:android "srecode-android" "\
 Add android specific symbols into DICT based on the current project.
@@ -18,8 +19,9 @@ Add android specific symbols into DICT based on the current project.
 ;;;;;;  srecode-semantic-handle-:file srecode-semantic-handle-:time
 ;;;;;;  srecode-semantic-handle-:user srecode-semantic-handle-:region
 ;;;;;;  srecode-semantic-handle-:indent srecode-semantic-handle-:blank)
-;;;;;;  "srecode-args" "srecode-args.el" (20362 59692))
-;;; Generated autoloads from srecode-args.el
+;;;;;;  "srecode-args" "../../../../.emacs.d/cedet-1.1/srecode/srecode-args.el"
+;;;;;;  "b14b3737a8148d8f107b9841b29c1c3a")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-args.el
 
 (autoload 'srecode-semantic-handle-:blank "srecode-args" "\
 Add macros into the dictionary DICT specifying blank line spacing.
@@ -66,8 +68,9 @@ Add macros into the dictionary DICT based on the kill ring.
 ;;;***
 
 ;;;### (autoloads (srecode-compile-templates srecode-compile-file)
-;;;;;;  "srecode-compile" "srecode-compile.el" (20362 59692))
-;;; Generated autoloads from srecode-compile.el
+;;;;;;  "srecode-compile" "../../../../.emacs.d/cedet-1.1/srecode/srecode-compile.el"
+;;;;;;  "d9a9d178addf4a8f2881a15f87aca8ba")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-compile.el
 
 (autoload 'srecode-compile-file "srecode-compile" "\
 Compile the templates from the file FNAME.
@@ -81,9 +84,9 @@ Compile a semantic recode template file into a mode-local variable.
 
 ;;;***
 
-;;;### (autoloads (srecode-semantic-handle-:cpp) "srecode-cpp" "srecode-cpp.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-cpp.el
+;;;### (autoloads (srecode-semantic-handle-:cpp) "srecode-cpp" "../../../../.emacs.d/cedet-1.1/srecode/srecode-cpp.el"
+;;;;;;  "78621e575234d8adde3a6fdfd3210f37")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-cpp.el
 
 (autoload 'srecode-semantic-handle-:cpp "srecode-cpp" "\
 Add macros into the dictionary DICT based on the current c++ file.
@@ -95,9 +98,9 @@ HEADER - Shown section if in a header file.
 
 ;;;***
 
-;;;### (autoloads (srecode-calculate-context) "srecode-ctxt" "srecode-ctxt.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-ctxt.el
+;;;### (autoloads (srecode-calculate-context) "srecode-ctxt" "../../../../.emacs.d/cedet-1.1/srecode/srecode-ctxt.el"
+;;;;;;  "3f24a5ab6fcbc6d264b7e72c17092528")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-ctxt.el
 
 (autoload 'srecode-calculate-context "srecode-ctxt" "\
 Calculate the context at the current point.
@@ -137,9 +140,9 @@ Some useful context values used by the provided srecode templates are:
 ;;;***
 
 ;;;### (autoloads (srecode-dictionary-dump srecode-adebug-dictionary
-;;;;;;  srecode-create-dictionary) "srecode-dictionary" "srecode-dictionary.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-dictionary.el
+;;;;;;  srecode-create-dictionary) "srecode-dictionary" "../../../../.emacs.d/cedet-1.1/srecode/srecode-dictionary.el"
+;;;;;;  "cdccba3c902c2dd11da51d0565cd6a5d")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-dictionary.el
 
 (eieio-defclass-autoload 'srecode-dictionary 'nil "srecode-dictionary" "Dictionary of symbols and what they mean.\nDictionaries are used to look up named symbols from\ntemplates to decide what to do with those symbols.")
 
@@ -178,8 +181,9 @@ Dump a typical fabricated dictionary.
 ;;;### (autoloads (srecode-document-function-comment-extract-test
 ;;;;;;  srecode-document-insert-group-comments srecode-document-insert-variable-one-line-comment
 ;;;;;;  srecode-document-insert-function-comment srecode-document-insert-comment)
-;;;;;;  "srecode-document" "srecode-document.el" (20362 59692))
-;;; Generated autoloads from srecode-document.el
+;;;;;;  "srecode-document" "../../../../.emacs.d/cedet-1.1/srecode/srecode-document.el"
+;;;;;;  "4c96032a7e2ecfd98e31a926f6145da2")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-document.el
 
 (eval-after-load "srecode-mode" '(progn (srecode-add-code-generator 'srecode-document-insert-comment "Comments" "C")))
 
@@ -227,8 +231,9 @@ Dump out the extracted dictionary.
 ;;;***
 
 ;;;### (autoloads (srecode-semantic-handle-:el-custom srecode-semantic-handle-:el)
-;;;;;;  "srecode-el" "srecode-el.el" (20362 59692))
-;;; Generated autoloads from srecode-el.el
+;;;;;;  "srecode-el" "../../../../.emacs.d/cedet-1.1/srecode/srecode-el.el"
+;;;;;;  "5117827561a8b295c0c9b9ea5283d4a0")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-el.el
 
 (autoload 'srecode-semantic-handle-:el "srecode-el" "\
 Add macros into the dictionary DICT based on the current Emacs Lisp file.
@@ -248,8 +253,9 @@ Adds the following:
 ;;;***
 
 ;;;### (autoloads (srecode-insert-prototype-expansion) "srecode-expandproto"
-;;;;;;  "srecode-expandproto.el" (20362 59692))
-;;; Generated autoloads from srecode-expandproto.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-expandproto.el"
+;;;;;;  "ab370d7ea3a5f14a70a52a102704c4e2")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-expandproto.el
 
 (autoload 'srecode-insert-prototype-expansion "srecode-expandproto" "\
 Insert get/set methods for the current class.
@@ -258,9 +264,9 @@ Insert get/set methods for the current class.
 
 ;;;***
 
-;;;### (autoloads (srecode-field-utest) "srecode-fields" "srecode-fields.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-fields.el
+;;;### (autoloads (srecode-field-utest) "srecode-fields" "../../../../.emacs.d/cedet-1.1/srecode/srecode-fields.el"
+;;;;;;  "844c95e59751c8197847d2077fa097ca")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-fields.el
 
 (eieio-defclass-autoload 'srecode-field '(srecode-overlaid) "srecode-fields" "Representation of one field.")
 
@@ -271,9 +277,9 @@ Test the srecode field manager.
 
 ;;;***
 
-;;;### (autoloads (srecode-comment-prefix) "srecode-filters" "srecode-filters.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-filters.el
+;;;### (autoloads (srecode-comment-prefix) "srecode-filters" "../../../../.emacs.d/cedet-1.1/srecode/srecode-filters.el"
+;;;;;;  "fd9fecb6869895cfb5a1715fe51cb573")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-filters.el
 
 (autoload 'srecode-comment-prefix "srecode-filters" "\
 Prefix each line of STR with the comment prefix characters.
@@ -284,8 +290,9 @@ Prefix each line of STR with the comment prefix characters.
 
 ;;;### (autoloads (srecode-read-template-name srecode-template-get-table-for-binding
 ;;;;;;  srecode-template-get-table srecode-load-tables-for-mode srecode-table)
-;;;;;;  "srecode-find" "srecode-find.el" (20362 59692))
-;;; Generated autoloads from srecode-find.el
+;;;;;;  "srecode-find" "../../../../.emacs.d/cedet-1.1/srecode/srecode-find.el"
+;;;;;;  "8df020f814c820048927f559dbf96d01")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-find.el
 
 (autoload 'srecode-table "srecode-find" "\
 Return the currently active Semantic Recoder table for this buffer.
@@ -333,9 +340,9 @@ DEFAULT is what to use if the user presses RET.
 
 ;;;***
 
-;;;### (autoloads (srecode-insert-getset) "srecode-getset" "srecode-getset.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-getset.el
+;;;### (autoloads (srecode-insert-getset) "srecode-getset" "../../../../.emacs.d/cedet-1.1/srecode/srecode-getset.el"
+;;;;;;  "9089680b07450b0f335ee89ae97075bc")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-getset.el
 
 (eval-after-load "srecode-mode" '(progn (srecode-add-code-generator 'srecode-insert-getset "Get/Set" "G")))
 
@@ -351,8 +358,9 @@ will be derived.
 ;;;***
 
 ;;;### (autoloads (srecode-insert-fcn srecode-insert srecode-insert-again)
-;;;;;;  "srecode-insert" "srecode-insert.el" (20362 59692))
-;;; Generated autoloads from srecode-insert.el
+;;;;;;  "srecode-insert" "../../../../.emacs.d/cedet-1.1/srecode/srecode-insert.el"
+;;;;;;  "9b8526995b1f9f6b9e06d2ca1886af7d")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-insert.el
 
 (autoload 'srecode-insert-again "srecode-insert" "\
 Insert the previously inserted template (by name) again.
@@ -376,8 +384,9 @@ has set everything up already.
 ;;;***
 
 ;;;### (autoloads (srecode-semantic-handle-:java) "srecode-java"
-;;;;;;  "srecode-java.el" (20362 59692))
-;;; Generated autoloads from srecode-java.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-java.el"
+;;;;;;  "6bb71bbf97918e53a9e366ae51f0162a")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-java.el
 
 (autoload 'srecode-semantic-handle-:java "srecode-java" "\
 Add macros into the dictionary DICT based on the current java file.
@@ -389,9 +398,9 @@ FILENAME_AS_CLASS - file converted to a Java class name.
 
 ;;;***
 
-;;;### (autoloads (srecode-m3-items) "srecode-m3" "srecode-m3.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-m3.el
+;;;### (autoloads (srecode-m3-items) "srecode-m3" "../../../../.emacs.d/cedet-1.1/srecode/srecode-m3.el"
+;;;;;;  "ed792ddaf522eae08ab602f10732b92f")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-m3.el
 
 (autoload 'srecode-m3-items "srecode-m3" "\
 Return a list of menu items based on SRecode features.
@@ -401,8 +410,8 @@ Return a list of menu items based on SRecode features.
 ;;;***
 
 ;;;### (autoloads (srecode-adebug-maps srecode-get-maps) "srecode-map"
-;;;;;;  "srecode-map.el" (20362 59692))
-;;; Generated autoloads from srecode-map.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-map.el" "f7dc9af70d7400c141610eaf70d89dd2")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-map.el
 
 (autoload 'srecode-get-maps "srecode-map" "\
 Get a list of maps relevant to the current buffer.
@@ -418,8 +427,9 @@ Run ADEBUG on the output of `srecode-get-maps'.
 ;;;***
 
 ;;;### (autoloads (global-srecode-minor-mode srecode-minor-mode)
-;;;;;;  "srecode-mode" "srecode-mode.el" (20362 59692))
-;;; Generated autoloads from srecode-mode.el
+;;;;;;  "srecode-mode" "../../../../.emacs.d/cedet-1.1/srecode/srecode-mode.el"
+;;;;;;  "8a9ad174ff7218b1112665e35295dd1f")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-mode.el
 
 (autoload 'srecode-minor-mode "srecode-mode" "\
 Toggle srecode minor mode.
@@ -443,9 +453,9 @@ If ARG is nil, then toggle.
 
 ;;;### (autoloads (srecode-semantic-insert-tag srecode-semantic-apply-tag-to-dict-default
 ;;;;;;  srecode-semantic-apply-tag-to-dict srecode-semantic-handle-:tagtype
-;;;;;;  srecode-semantic-handle-:tag) "srecode-semantic" "srecode-semantic.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-semantic.el
+;;;;;;  srecode-semantic-handle-:tag) "srecode-semantic" "../../../../.emacs.d/cedet-1.1/srecode/srecode-semantic.el"
+;;;;;;  "e51e0e3b90ad3169a7c9bfb19b6b43bc")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-semantic.el
 
 (autoload 'srecode-semantic-handle-:tag "srecode-semantic" "\
 Add macros into the dictionary DICT based on the current :tag.
@@ -516,9 +526,9 @@ as `function' will leave point where code might be inserted.
 ;;;***
 
 ;;;### (autoloads (srecode-semantic-handle-:srt srecode-read-major-mode-name
-;;;;;;  srecode-read-variable-name) "srecode-srt" "srecode-srt.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-srt.el
+;;;;;;  srecode-read-variable-name) "srecode-srt" "../../../../.emacs.d/cedet-1.1/srecode/srecode-srt.el"
+;;;;;;  "927756014f634f00fe4bcc945cb57b26")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-srt.el
 
 (autoload 'srecode-read-variable-name "srecode-srt" "\
 Read in the name of a declared variable in the current SRT file.
@@ -552,9 +562,9 @@ MODE - The mode of this buffer.  If not declared yet, guess.
 ;;;***
 
 ;;;### (autoloads (srecode-dump-templates srecode-mode-table-new
-;;;;;;  srecode-get-mode-table) "srecode-table" "srecode-table.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from srecode-table.el
+;;;;;;  srecode-get-mode-table) "srecode-table" "../../../../.emacs.d/cedet-1.1/srecode/srecode-table.el"
+;;;;;;  "c24e876b7c9d5a2e1bdc4774493eeebd")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-table.el
 
 (autoload 'srecode-get-mode-table "srecode-table" "\
 Get the SRecoder mode table for the major mode MODE.
@@ -577,8 +587,9 @@ Dump a list of the current templates for MODE.
 ;;;***
 
 ;;;### (autoloads (srecode-template-setup-parser) "srecode-template"
-;;;;;;  "srecode-template.el" (20362 59692))
-;;; Generated autoloads from srecode-template.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-template.el"
+;;;;;;  "ab3941c5a5cd8b58ce3058a481daf550")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-template.el
 
 (autoload 'srecode-template-setup-parser "srecode-template" "\
 Setup buffer for parse.
@@ -590,8 +601,9 @@ Setup buffer for parse.
 ;;;***
 
 ;;;### (autoloads (srecode-template-mode) "srecode-template-mode"
-;;;;;;  "srecode-template-mode.el" (20362 59692))
-;;; Generated autoloads from srecode-template-mode.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-template-mode.el"
+;;;;;;  "40977ed3fadde72340d3779d6106eea8")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-template-mode.el
 
 (autoload 'srecode-template-mode "srecode-template-mode" "\
 Major-mode for writing SRecode macros.
@@ -603,8 +615,9 @@ Major-mode for writing SRecode macros.
 ;;;***
 
 ;;;### (autoloads (srecode-utest-template-output) "srecode-test"
-;;;;;;  "srecode-test.el" (20362 59692))
-;;; Generated autoloads from srecode-test.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-test.el"
+;;;;;;  "d7726aa3da0d34ffc11bbd48657e47fb")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-test.el
 
 (autoload 'srecode-utest-template-output "srecode-test" "\
 Test various template insertion options.
@@ -614,8 +627,9 @@ Test various template insertion options.
 ;;;***
 
 ;;;### (autoloads (srecode-utest-getset-output) "srecode-test-getset"
-;;;;;;  "srecode-test-getset.el" (20362 59692))
-;;; Generated autoloads from srecode-test-getset.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-test-getset.el"
+;;;;;;  "57aa4eac3e45a182f7ec47680c57b4fa")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-test-getset.el
 
 (autoload 'srecode-utest-getset-output "srecode-test-getset" "\
 Test various template insertion options.
@@ -626,8 +640,9 @@ Test various template insertion options.
 
 ;;;### (autoloads (srecode-texi-insert-tag-as-doc srecode-semantic-handle-:texitag
 ;;;;;;  srecode-semantic-handle-:texi srecode-texi-add-menu) "srecode-texi"
-;;;;;;  "srecode-texi.el" (20362 59692))
-;;; Generated autoloads from srecode-texi.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-texi.el"
+;;;;;;  "6f6616e335e5b5eb37f15d918de41940")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/srecode/srecode-texi.el
 
 (autoload 'srecode-texi-add-menu "srecode-texi" "\
 Add an item into the current menu.  Add @node statements as well.
@@ -659,9 +674,34 @@ Insert TAG into the current buffer with SRecode.
 
 ;;;***
 
-;;;### (autoloads nil nil ("srecode-document-vars.el" "srecode-extract.el"
-;;;;;;  "srecode-load.el" "srecode-template-wy.el" "srecode.el")
-;;;;;;  (20436 56494 987364))
+;;;### (autoloads nil nil ("../../../../.emacs.d/cedet-1.1/srecode/srecode-android.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-args.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-compile.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-cpp.el" "../../../../.emacs.d/cedet-1.1/srecode/srecode-ctxt.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-dictionary.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-document-vars.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-document.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-el.el" "../../../../.emacs.d/cedet-1.1/srecode/srecode-expandproto.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-extract.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-fields.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-filters.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-find.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-getset.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-insert.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-java.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-load.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-m3.el" "../../../../.emacs.d/cedet-1.1/srecode/srecode-map.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-mode.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-semantic.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-srt.el" "../../../../.emacs.d/cedet-1.1/srecode/srecode-table.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-template-mode.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-template-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-template.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-test-getset.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-test.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode-texi.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/srecode/srecode.el") (20620
+;;;;;;  56600 286934))
 
 ;;;***
 

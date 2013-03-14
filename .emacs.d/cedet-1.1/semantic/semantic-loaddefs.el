@@ -1,11 +1,12 @@
-;;; semantic-loaddefs.el --- Auto-generated CEDET autoloads
+;;; semantic-loaddefs.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 
 
 ;;;### (autoloads (semantic-bovine-debug-create-frame) "bovine/bovine-debug"
-;;;;;;  "bovine/bovine-debug.el" (20362 59692))
-;;; Generated autoloads from bovine/bovine-debug.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-debug.el"
+;;;;;;  "0a564e2e646bd7b12005723490969fe2")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-debug.el
 
 (autoload 'semantic-bovine-debug-create-frame "bovine/bovine-debug" "\
 Create one bovine frame.
@@ -29,9 +30,9 @@ LEXTOKEN, is a token returned by the lexer which is being matched.
 
 ;;;***
 
-;;;### (autoloads (bovine-grammar-mode) "bovine/bovine-grammar" "bovine/bovine-grammar.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from bovine/bovine-grammar.el
+;;;### (autoloads (bovine-grammar-mode) "bovine/bovine-grammar" "../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-grammar.el"
+;;;;;;  "8791887d7ecd0a2b49f95cb221d06917")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-grammar.el
 
 (autoload 'bovine-grammar-mode "bovine/bovine-grammar" "\
 Major mode for editing Bovine grammars.
@@ -45,8 +46,9 @@ Major mode for editing Bovine grammars.
 ;;;***
 
 ;;;### (autoloads (semantic-bovinate-stream semantic-lambda) "bovine/semantic-bovine"
-;;;;;;  "bovine/semantic-bovine.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-bovine.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-bovine.el"
+;;;;;;  "5879c9eafb13a512ab62b1fcd5dd4153")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-bovine.el
 
 (defvar semantic-bovinate-nonterminal-check-obarray nil "\
 Obarray of streams already parsed for nonterminal symbols.
@@ -75,8 +77,9 @@ list of semantic tokens found.
 ;;;### (autoloads (semantic-c-add-preprocessor-symbol semantic-default-c-setup
 ;;;;;;  semantic-c-member-of-autocast semantic-lex-c-preprocessor-symbol-file
 ;;;;;;  semantic-lex-c-preprocessor-symbol-map) "bovine/semantic-c"
-;;;;;;  "bovine/semantic-c.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-c.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-c.el"
+;;;;;;  "94b8a30a4c2f247b004d947ad2599d79")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-c.el
 
 (defvar semantic-lex-c-preprocessor-symbol-map nil "\
 Table of C Preprocessor keywords used by the Semantic C lexer.
@@ -154,8 +157,9 @@ Add a preprocessor symbol SYM with a REPLACEMENT value.
 ;;;***
 
 ;;;### (autoloads (semantic-clang-activate) "bovine/semantic-clang"
-;;;;;;  "bovine/semantic-clang.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-clang.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-clang.el"
+;;;;;;  "1db7f2e639a2e3a6fa25ad2825ddc604")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-clang.el
 
 (autoload 'semantic-clang-activate "bovine/semantic-clang" "\
 Activate clang completions for C/C++.
@@ -165,8 +169,9 @@ Activate clang completions for C/C++.
 ;;;***
 
 ;;;### (autoloads (semantic-default-elisp-setup) "bovine/semantic-el"
-;;;;;;  "bovine/semantic-el.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-el.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-el.el"
+;;;;;;  "7f07bb16aba6d38215f93aa9060cc142")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-el.el
 
 (autoload 'semantic-default-elisp-setup "bovine/semantic-el" "\
 Setup hook function for Emacs Lisp files and Semantic.
@@ -182,8 +187,9 @@ Setup hook function for Emacs Lisp files and Semantic.
 ;;;***
 
 ;;;### (autoloads (semantic-default-f90-setup) "bovine/semantic-f90"
-;;;;;;  "bovine/semantic-f90.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-f90.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-f90.el"
+;;;;;;  "ad588b216d1936538fd050f2a9fafed8")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-f90.el
 
 (autoload 'semantic-default-f90-setup "bovine/semantic-f90" "\
 Set up a buffer for semantic parsing of the F90 language.
@@ -195,9 +201,9 @@ Set up a buffer for semantic parsing of the F90 language.
 ;;;***
 
 ;;;### (autoloads (semantic-gcc-test-output-parser-this-machine semantic-gcc-test-output-parser
-;;;;;;  semantic-gcc-setup) "bovine/semantic-gcc" "bovine/semantic-gcc.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from bovine/semantic-gcc.el
+;;;;;;  semantic-gcc-setup) "bovine/semantic-gcc" "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-gcc.el"
+;;;;;;  "3fa50df96473fb6b119b215c7eec7fe0")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-gcc.el
 
 (autoload 'semantic-gcc-setup "bovine/semantic-gcc" "\
 Setup Semantic C/C++ parsing based on GCC output.
@@ -217,8 +223,9 @@ Test the output parser against the machine currently running Emacs.
 ;;;***
 
 ;;;### (autoloads (semantic-default-make-setup) "bovine/semantic-make"
-;;;;;;  "bovine/semantic-make.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-make.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-make.el"
+;;;;;;  "9f346232cea9822ecd292673291295f7")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-make.el
 
 (autoload 'semantic-default-make-setup "bovine/semantic-make" "\
 Set up a Makefile buffer for parsing with semantic.
@@ -230,8 +237,9 @@ Set up a Makefile buffer for parsing with semantic.
 ;;;***
 
 ;;;### (autoloads (semantic-default-scheme-setup) "bovine/semantic-scm"
-;;;;;;  "bovine/semantic-scm.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-scm.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-scm.el"
+;;;;;;  "47c4de9f49d9cb663bcfb9b4b7a1cb68")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-scm.el
 
 (autoload 'semantic-default-scheme-setup "bovine/semantic-scm" "\
 Setup hook function for Emacs Lisp files and Semantic.
@@ -243,8 +251,9 @@ Setup hook function for Emacs Lisp files and Semantic.
 ;;;***
 
 ;;;### (autoloads (semantic-default-skel-setup) "bovine/semantic-skel"
-;;;;;;  "bovine/semantic-skel.el" (20362 59692))
-;;; Generated autoloads from bovine/semantic-skel.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-skel.el"
+;;;;;;  "a50d42aeec73f158339a9e76afafe650")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-skel.el
 
 (autoload 'semantic-default-skel-setup "bovine/semantic-skel" "\
 Set up a buffer for semantic parsing of the skeleton language.
@@ -253,78 +262,10 @@ Set up a buffer for semantic parsing of the skeleton language.
 
 ;;;***
 
-;;;### (autoloads (semantic-load-enable-primary-exuberent-ctags-support)
-;;;;;;  "ctags/semantic-ectag-lang" "ctags/semantic-ectag-lang.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from ctags/semantic-ectag-lang.el
-
-(autoload 'semantic-load-enable-primary-exuberent-ctags-support "ctags/semantic-ectag-lang" "\
-Enable all ectag supported parsers for new languages.
-This is support for any language that does not have a regular
-semantic parser.
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads (semantic-load-enable-secondary-exuberent-ctags-support)
-;;;;;;  "ctags/semantic-ectag-lang2" "ctags/semantic-ectag-lang2.el"
-;;;;;;  (20362 59692))
-;;; Generated autoloads from ctags/semantic-ectag-lang2.el
-
-(autoload 'semantic-load-enable-secondary-exuberent-ctags-support "ctags/semantic-ectag-lang2" "\
-Enable exuberent ctags support as a secondary parser.
-This is for semanticdb out-of-buffer parsing support.
-Any mode that has been tested to work will be added to this function.
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads (semantic-ectag-parse-buffer) "ctags/semantic-ectag-parse"
-;;;;;;  "ctags/semantic-ectag-parse.el" (20362 59692))
-;;; Generated autoloads from ctags/semantic-ectag-parse.el
-
-(autoload 'semantic-ectag-parse-buffer "ctags/semantic-ectag-parse" "\
-Execute Exuberent CTags on this buffer.
-Convert the output tags into Semantic tags.
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads (cedet-ectag-version-check) "ctags/semantic-ectag-util"
-;;;;;;  "ctags/semantic-ectag-util.el" (20362 59692))
-;;; Generated autoloads from ctags/semantic-ectag-util.el
-
-(autoload 'cedet-ectag-version-check "ctags/semantic-ectag-util" "\
-Check the version of the installed ctags command.
-If optional programatic argument NOERROR is non-nil, then
-instead of throwing an error if ctags isn't available, then
-return nil.
-
-\(fn &optional NOERROR)" t nil)
-
-;;;***
-
-;;;### (autoloads (semanticdb-enable-exuberent-ctags) "ctags/semanticdb-ectag"
-;;;;;;  "ctags/semanticdb-ectag.el" (20362 59692))
-;;; Generated autoloads from ctags/semanticdb-ectag.el
-
-(autoload 'semanticdb-enable-exuberent-ctags "ctags/semanticdb-ectag" "\
-Enable the use of exuberent ctags for out-of-buffer parsing for MODE.
-MODE is a `major-mode' symbol used.
-Throws an error if `semantic-ectag-program' is not of the correct
-version needed by Semantic ctags support.
-
-\(fn MODE)" t nil)
-
-;;;***
-
 ;;;### (autoloads (semantic-bovinate-toplevel semantic-refresh-tags-safe
 ;;;;;;  semantic-fetch-tags semantic-parse-region-default) "semantic"
-;;;;;;  "semantic.el" (20362 59690))
-;;; Generated autoloads from semantic.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic.el" "8ce350119aa4f968b1224cf6fb4bbe5d")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic.el
 
 (autoload 'semantic-parse-region-default "semantic" "\
 Parse the area between START and END, and return any tags found.
@@ -382,8 +323,9 @@ new tags when they become available." semantic--buffer-cache)
 ;;;;;;  data-debug-insert-find-results-button data-debug-insert-find-results
 ;;;;;;  data-debug-insert-tag-list-button data-debug-insert-tag-list
 ;;;;;;  data-debug-insert-tag data-debug-insert-tag-parts-from-point)
-;;;;;;  "semantic-adebug" "semantic-adebug.el" (20362 59691))
-;;; Generated autoloads from semantic-adebug.el
+;;;;;;  "semantic-adebug" "../../../../.emacs.d/cedet-1.1/semantic/semantic-adebug.el"
+;;;;;;  "f8071f178ab8a64a2816ab86d8ea1b21")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-adebug.el
 
 (autoload 'data-debug-insert-tag-parts-from-point "semantic-adebug" "\
 Call `data-debug-insert-tag-parts' based on text properties at POINT.
@@ -451,9 +393,9 @@ Report debug info for checking STARTFILE for up-to-date tags.
 ;;;***
 
 ;;;### (autoloads (semantic-adebug-analyze semantic-analyze-current-context
-;;;;;;  semantic-analyze-current-symbol) "semantic-analyze" "semantic-analyze.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-analyze.el
+;;;;;;  semantic-analyze-current-symbol) "semantic-analyze" "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze.el"
+;;;;;;  "dcf4371ee2d06684dd71c942263f42a4")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze.el
 
 (autoload 'semantic-analyze-current-symbol "semantic-analyze" "\
 Call ANALYZEHOOKFCN after analyzing the symbol under POSITION.
@@ -495,8 +437,9 @@ Optional argument CTXT is the context to show.
 
 ;;;### (autoloads (semantic-analyze-possible-completions semantic-analyze-tags-of-class-list
 ;;;;;;  semantic-analyze-type-constants) "semantic-analyze-complete"
-;;;;;;  "semantic-analyze-complete.el" (20362 59691))
-;;; Generated autoloads from semantic-analyze-complete.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-complete.el"
+;;;;;;  "6527f8b38f36d340c4b5c13eeaf5d3ea")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-complete.el
 
 (autoload 'semantic-analyze-type-constants "semantic-analyze-complete" "\
 For the tag TYPE, return any constant symbols of TYPE.
@@ -535,8 +478,9 @@ in a buffer.
 ;;;***
 
 ;;;### (autoloads (semantic-analyze-debug-assist) "semantic-analyze-debug"
-;;;;;;  "semantic-analyze-debug.el" (20362 59691))
-;;; Generated autoloads from semantic-analyze-debug.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-debug.el"
+;;;;;;  "c26330bfebbef754f32834def8d494e8")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-debug.el
 
 (autoload 'semantic-analyze-debug-assist "semantic-analyze-debug" "\
 Debug semantic analysis at the current point.
@@ -547,8 +491,9 @@ Debug semantic analysis at the current point.
 
 ;;;### (autoloads (semantic-analyze-proto-impl-toggle semantic-analyze-current-tag
 ;;;;;;  semantic-analyze-tag-references) "semantic-analyze-refs"
-;;;;;;  "semantic-analyze-refs.el" (20362 59691))
-;;; Generated autoloads from semantic-analyze-refs.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-refs.el"
+;;;;;;  "ee79c148a25cd69e3593042318e52017")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-refs.el
 
 (autoload 'semantic-analyze-tag-references "semantic-analyze-refs" "\
 Analyze the references for TAG.
@@ -575,8 +520,9 @@ Toggle between the implementation, and a prototype of tag under point.
 
 ;;;### (autoloads (semantic-chart-analyzer semantic-chart-tag-complexity
 ;;;;;;  semantic-chart-database-size semantic-chart-tags-by-class)
-;;;;;;  "semantic-chart" "semantic-chart.el" (20362 59691))
-;;; Generated autoloads from semantic-chart.el
+;;;;;;  "semantic-chart" "../../../../.emacs.d/cedet-1.1/semantic/semantic-chart.el"
+;;;;;;  "91db31c52e298f60cde604dca7d32edb")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-chart.el
 
 (autoload 'semantic-chart-tags-by-class "semantic-chart" "\
 Create a bar chart representing the number of tags for a given tag class.
@@ -621,8 +567,9 @@ Chart the extent of the context analysis.
 ;;;;;;  semantic-displayor-tooltip-initial-max-tags semantic-displayor-tooltip-mode
 ;;;;;;  semantic-complete-inline-force-display semantic-complete-read-tag-engine
 ;;;;;;  semantic-completion-inline-active-p) "semantic-complete"
-;;;;;;  "semantic-complete.el" (20362 59691))
-;;; Generated autoloads from semantic-complete.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-complete.el"
+;;;;;;  "39db521f860d5cd5dfc17aa07302828b")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-complete.el
 
 (autoload 'semantic-completion-inline-active-p "semantic-complete" "\
 Non-nil if inline completion is active.
@@ -820,8 +767,9 @@ use `semantic-complete-analyze-inline' to complete.
 
 ;;;***
 
-;;;### (autoloads nil "semantic-ctxt" "semantic-ctxt.el" (20362 59691))
-;;; Generated autoloads from semantic-ctxt.el
+;;;### (autoloads nil "semantic-ctxt" "../../../../.emacs.d/cedet-1.1/semantic/semantic-ctxt.el"
+;;;;;;  "151a709236aab963536b11fe0ba57ce5")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-ctxt.el
 
 (defvar semantic-command-separation-character ";" "\
 String which indicates the end of a command.
@@ -832,8 +780,9 @@ Used for identifying the end of a single command.")
 ;;;### (autoloads (semantic-tag-customize semantic-tag-widget-to-external
 ;;;;;;  semantic-tag-widget-to-internal semantic-tag-widget-value-get
 ;;;;;;  semantic-tag-widget-value-create semantic-tag-widget-match)
-;;;;;;  "semantic-custom" "semantic-custom.el" (20362 59691))
-;;; Generated autoloads from semantic-custom.el
+;;;;;;  "semantic-custom" "../../../../.emacs.d/cedet-1.1/semantic/semantic-custom.el"
+;;;;;;  "58756377605b8c4e1d860ddb8efbe736")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-custom.el
 
 (define-widget 'tag-edit 'group "\
 Abstractly modify a Semantic Tag." :tag "Tag" :format "%v" :convert-widget (quote widget-types-convert-widget) :value-create (quote semantic-tag-widget-value-create) :value-get (quote semantic-tag-widget-value-get) :value-delete (quote widget-children-value-delete) :validate (quote widget-children-validate) :match (quote semantic-tag-widget-match) :clone-object-children nil)
@@ -878,8 +827,9 @@ If TAG is not provided, then the tag under point is used.
 ;;;***
 
 ;;;### (autoloads (semantic-debug semantic-debug-break) "semantic-debug"
-;;;;;;  "semantic-debug.el" (20362 59691))
-;;; Generated autoloads from semantic-debug.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-debug.el"
+;;;;;;  "88be2347ca935c70ed1dc50501871818")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-debug.el
 
 (defvar semantic-debug-parser-source nil "\
 For any buffer, the file name (no path) of the parser.
@@ -922,8 +872,9 @@ Parse the current buffer and run in debug mode.
 ;;;;;;  semantic-set-tag-intangible semantic-tag-invisible-p semantic-set-tag-invisible
 ;;;;;;  semantic-set-tag-face semantic-momentary-highlight-tag semantic-momentary-highlight-one-tag-line
 ;;;;;;  semantic-unhighlight-tag semantic-highlight-tag) "semantic-decorate"
-;;;;;;  "semantic-decorate.el" (20362 59691))
-;;; Generated autoloads from semantic-decorate.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate.el"
+;;;;;;  "513342d0691b03507ea0b9181c915648")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate.el
 
 (autoload 'semantic-highlight-tag "semantic-decorate" "\
 Specify that TAG should be highlighted.
@@ -1056,8 +1007,9 @@ Non-nil if TAG is currently folded.
 
 ;;;### (autoloads (semantic-decoration-unparsed-include-do-reset
 ;;;;;;  semantic-decoration-include-visit) "semantic-decorate-include"
-;;;;;;  "semantic-decorate-include.el" (20362 59691))
-;;; Generated autoloads from semantic-decorate-include.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate-include.el"
+;;;;;;  "b1503f238b1b09bbed910d2eaf7cb1dd")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate-include.el
 
 (autoload 'semantic-decoration-include-visit "semantic-decorate-include" "\
 Visit the included file at point.
@@ -1074,8 +1026,9 @@ Do a reset of unparsed includes in the current buffer.
 ;;;### (autoloads (semantic-build-decoration-mode-menu semantic-decoration-mode
 ;;;;;;  global-semantic-decoration-mode global-semantic-decoration-mode
 ;;;;;;  semantic-decorate-flush-pending-decorations) "semantic-decorate-mode"
-;;;;;;  "semantic-decorate-mode.el" (20362 59691))
-;;; Generated autoloads from semantic-decorate-mode.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate-mode.el"
+;;;;;;  "48c41ae967af96bb3ba073c6cc662b21")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate-mode.el
 
 (autoload 'semantic-decorate-flush-pending-decorations "semantic-decorate-mode" "\
 Flush any pending decorations for BUFFER.
@@ -1126,8 +1079,9 @@ IGNORE any input arguments.
 ;;;### (autoloads (semantic-dependency-find-file-on-path semantic-customize-system-include-path
 ;;;;;;  semantic-reset-system-include semantic-remove-system-include
 ;;;;;;  semantic-add-system-include defcustom-mode-local-semantic-dependency-system-include-path)
-;;;;;;  "semantic-dep" "semantic-dep.el" (20362 59691))
-;;; Generated autoloads from semantic-dep.el
+;;;;;;  "semantic-dep" "../../../../.emacs.d/cedet-1.1/semantic/semantic-dep.el"
+;;;;;;  "3338aa3e8d8b2621cd6fb18d19ef5fbe")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-dep.el
 
 (defvar semantic-dependency-include-path nil "\
 Defines the include path used when searching for files.
@@ -1215,9 +1169,9 @@ provided mode, not from the current major mode.
 ;;;***
 
 ;;;### (autoloads (semantic-documentation-comment-preceeding-tag
-;;;;;;  semantic-documentation-for-tag) "semantic-doc" "semantic-doc.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-doc.el
+;;;;;;  semantic-documentation-for-tag) "semantic-doc" "../../../../.emacs.d/cedet-1.1/semantic/semantic-doc.el"
+;;;;;;  "e61bcfcedbef14e3e96343414083004a")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-doc.el
 
 (autoload 'semantic-documentation-for-tag "semantic-doc" "\
 Find documentation from TAG and return it as a clean string.
@@ -1244,9 +1198,9 @@ just the lexical token and not the string.
 
 ;;;***
 
-;;;### (autoloads nil "semantic-ede-grammar" "semantic-ede-grammar.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-ede-grammar.el
+;;;### (autoloads nil "semantic-ede-grammar" "../../../../.emacs.d/cedet-1.1/semantic/semantic-ede-grammar.el"
+;;;;;;  "955278c98593f94f2ca2cb0f970de920")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-ede-grammar.el
 
 (eieio-defclass-autoload 'semantic-ede-proj-target-grammar '(ede-proj-target-makefile) "semantic-ede-grammar" "This target consists of a group of grammar files.\nA grammar target consists of grammar files that build Emacs Lisp programs for\nparsing different languages.")
 
@@ -1259,9 +1213,9 @@ Target class for Emacs/Semantic grammar files." nil nil)
 
 ;;;### (autoloads (semantic-edits-incremental-parser semantic-edits-flush-changes
 ;;;;;;  semantic-edits-change-function-handle-changes semantic-change-function
-;;;;;;  semantic-edits-verbose-flag) "semantic-edit" "semantic-edit.el"
-;;;;;;  (20362 59690))
-;;; Generated autoloads from semantic-edit.el
+;;;;;;  semantic-edits-verbose-flag) "semantic-edit" "../../../../.emacs.d/cedet-1.1/semantic/semantic-edit.el"
+;;;;;;  "64762c952f5bc1db6d0fcd9026de471e")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-edit.el
 
 (defvar semantic-edits-verbose-flag nil "\
 Non-nil means the incremental parser is verbose.
@@ -1306,8 +1260,9 @@ the semantic cache to see what needs to be changed.
 ;;;***
 
 ;;;### (autoloads (semantic-elp-load-old-run semantic-elp-analyze)
-;;;;;;  "semantic-elp" "semantic-elp.el" (20362 59691))
-;;; Generated autoloads from semantic-elp.el
+;;;;;;  "semantic-elp" "../../../../.emacs.d/cedet-1.1/semantic/semantic-elp.el"
+;;;;;;  "8b884c50fd1f4ab15e49ccda90594d22")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-elp.el
 
 (autoload 'semantic-elp-analyze "semantic-elp" "\
 Run the analyzer, using ELP to measure performance.
@@ -1337,8 +1292,9 @@ Load an old run from FILE, and show it.
 ;;;;;;  semantic-current-tag semantic-find-tag-parent-by-overlay
 ;;;;;;  semantic-find-tag-by-overlay-prev semantic-find-tag-by-overlay-next
 ;;;;;;  semantic-find-tag-by-overlay-in-region semantic-find-tag-by-overlay)
-;;;;;;  "semantic-find" "semantic-find.el" (20362 59691))
-;;; Generated autoloads from semantic-find.el
+;;;;;;  "semantic-find" "../../../../.emacs.d/cedet-1.1/semantic/semantic-find.el"
+;;;;;;  "4c2b9bd0134f1418456ef0ddb6524347")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-find.el
 
 (autoload 'semantic-find-tag-by-overlay "semantic-find" "\
 Find all tags covering POSITIONORMARKER by using overlays.
@@ -1670,9 +1626,9 @@ details are available of findable.
 
 ;;;***
 
-;;;### (autoloads (semantic-fmt-utest) "semantic-fmt-utest" "semantic-fmt-utest.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-fmt-utest.el
+;;;### (autoloads (semantic-fmt-utest) "semantic-fmt-utest" "../../../../.emacs.d/cedet-1.1/semantic/semantic-fmt-utest.el"
+;;;;;;  "481f2aad30178619ed1536a3a3c1b701")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-fmt-utest.el
 
 (autoload 'semantic-fmt-utest "semantic-fmt-utest" "\
 Visit all file entries, and run formatting test.
@@ -1687,9 +1643,9 @@ Files to visit are in `semantic-fmt-utest-file-list'.
 ;;;;;;  semantic-format-tag-prototype semantic-format-tag-short-doc
 ;;;;;;  semantic-format-tag-summarize-with-file semantic-format-tag-summarize
 ;;;;;;  semantic-format-tag-abbreviate semantic-format-tag-name semantic-format-tag-prin1
-;;;;;;  semantic-format-tag-type) "semantic-format" "semantic-format.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-format.el
+;;;;;;  semantic-format-tag-type) "semantic-format" "../../../../.emacs.d/cedet-1.1/semantic/semantic-format.el"
+;;;;;;  "f35bbe6ca9215543c09000a0c96a3132")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-format.el
 
 (defvar semantic-format-tag-functions '(semantic-format-tag-name semantic-format-tag-canonical-name semantic-format-tag-abbreviate semantic-format-tag-summarize semantic-format-tag-summarize-with-file semantic-format-tag-short-doc semantic-format-tag-prototype semantic-format-tag-concise-prototype semantic-format-tag-uml-abbreviate semantic-format-tag-uml-prototype semantic-format-tag-uml-concise-prototype semantic-format-tag-prin1) "\
 List of functions which convert a tag to text.
@@ -1798,8 +1754,9 @@ Optional argument COLOR means highlight the prototype with font-lock colors.
 ;;;***
 
 ;;;### (autoloads (semantic-grammar-batch-build-packages) "semantic-grammar"
-;;;;;;  "semantic-grammar.el" (20362 59691))
-;;; Generated autoloads from semantic-grammar.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-grammar.el"
+;;;;;;  "b53ade8916b0c15fb9b42f93c73f8ddf")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-grammar.el
 
 (autoload 'semantic-grammar-batch-build-packages "semantic-grammar" "\
 Build Lisp packages from grammar files on the command line.
@@ -1816,9 +1773,9 @@ See also the variable `semantic-grammar-file-regexp'.
 
 ;;;***
 
-;;;### (autoloads (semantic-default-html-setup) "semantic-html" "semantic-html.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-html.el
+;;;### (autoloads (semantic-default-html-setup) "semantic-html" "../../../../.emacs.d/cedet-1.1/semantic/semantic-html.el"
+;;;;;;  "c7cd1b189b9a97a5e9ede85af751a9eb")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-html.el
 
 (autoload 'semantic-default-html-setup "semantic-html" "\
 Set up a buffer for parsing of HTML files.
@@ -1832,9 +1789,9 @@ Set up a buffer for parsing of HTML files.
 ;;;### (autoloads (semantic-ia-describe-class semantic-ia-show-doc
 ;;;;;;  semantic-ia-fast-mouse-jump semantic-ia-fast-jump semantic-ia-show-variants
 ;;;;;;  semantic-ia-show-summary semantic-ia-complete-tip semantic-ia-complete-symbol-menu
-;;;;;;  semantic-ia-complete-symbol) "semantic-ia" "semantic-ia.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-ia.el
+;;;;;;  semantic-ia-complete-symbol) "semantic-ia" "../../../../.emacs.d/cedet-1.1/semantic/semantic-ia.el"
+;;;;;;  "31221f48c95b96c3774fb29856a8d527")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-ia.el
 
 (autoload 'semantic-ia-complete-symbol "semantic-ia" "\
 Complete the current symbol at POS.
@@ -1892,9 +1849,9 @@ parts of the parent classes are displayed.
 
 ;;;***
 
-;;;### (autoloads (semantic-speedbar-analysis) "semantic-ia-sb" "semantic-ia-sb.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-ia-sb.el
+;;;### (autoloads (semantic-speedbar-analysis) "semantic-ia-sb" "../../../../.emacs.d/cedet-1.1/semantic/semantic-ia-sb.el"
+;;;;;;  "b755218c81654b4d48b55e2ebf33e99f")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-ia-sb.el
 
 (autoload 'semantic-speedbar-analysis "semantic-ia-sb" "\
 Start Speedbar in semantic analysis mode.
@@ -1905,9 +1862,9 @@ list of possible completions.
 
 ;;;***
 
-;;;### (autoloads (semantic-ia-utest) "semantic-ia-utest" "semantic-ia-utest.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-ia-utest.el
+;;;### (autoloads (semantic-ia-utest) "semantic-ia-utest" "../../../../.emacs.d/cedet-1.1/semantic/semantic-ia-utest.el"
+;;;;;;  "1a0183abba7465eeccd79b650c953c88")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-ia-utest.el
 
 (autoload 'semantic-ia-utest "semantic-ia-utest" "\
 Run the semantic ia unit test against stored sources.
@@ -1923,9 +1880,9 @@ Argument ARG specifies which set of tests to run.
 
 ;;;### (autoloads (global-semantic-idle-scheduler-mode semantic-idle-scheduler-remove
 ;;;;;;  semantic-idle-scheduler-add semantic-idle-scheduler-mode
-;;;;;;  global-semantic-idle-scheduler-mode) "semantic-idle" "semantic-idle.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-idle.el
+;;;;;;  global-semantic-idle-scheduler-mode) "semantic-idle" "../../../../.emacs.d/cedet-1.1/semantic/semantic-idle.el"
+;;;;;;  "e48d7c44bbdd6a1d50fe4c0534352e4b")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-idle.el
 
 (defvar global-semantic-idle-scheduler-mode nil "\
 *If non-nil, enable global use of idle-scheduler mode.")
@@ -1973,8 +1930,9 @@ If ARG is nil, then toggle.
 
 ;;;### (autoloads (semantic-create-imenu-index semantic-imenu-expand-type-members
 ;;;;;;  semantic-imenu-bucketize-file semantic-imenu-summary-function)
-;;;;;;  "semantic-imenu" "semantic-imenu.el" (20362 59691))
-;;; Generated autoloads from semantic-imenu.el
+;;;;;;  "semantic-imenu" "../../../../.emacs.d/cedet-1.1/semantic/semantic-imenu.el"
+;;;;;;  "dd5e67b12f370eb1f7dbd4dd1b44223d")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-imenu.el
 
 (defvar semantic-imenu-summary-function 'semantic-format-tag-abbreviate "\
 *Function to use when creating items in Imenu.
@@ -2009,9 +1967,9 @@ Optional argument STREAM is an optional stream of tags used to create menus.
 
 ;;;### (autoloads (define-lex-block-analyzer define-lex-simple-regex-analyzer
 ;;;;;;  define-lex-regex-analyzer define-lex-analyzer semantic-lex
-;;;;;;  semantic-lex-init define-lex) "semantic-lex" "semantic-lex.el"
-;;;;;;  (20362 59690))
-;;; Generated autoloads from semantic-lex.el
+;;;;;;  semantic-lex-init define-lex) "semantic-lex" "../../../../.emacs.d/cedet-1.1/semantic/semantic-lex.el"
+;;;;;;  "d773ec5f6de1ad99ec6c701a086c1b8b")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-lex.el
 
 (defvar semantic-lex-analyzer 'semantic-flex "\
 The lexical analyzer used for a given buffer.
@@ -2119,8 +2077,9 @@ symbols returned in open and close tokens.
 ;;;***
 
 ;;;### (autoloads (semantic-lex-spp-write-utest semantic-lex-spp-table-write-slot-value)
-;;;;;;  "semantic-lex-spp" "semantic-lex-spp.el" (20362 59690))
-;;; Generated autoloads from semantic-lex-spp.el
+;;;;;;  "semantic-lex-spp" "../../../../.emacs.d/cedet-1.1/semantic/semantic-lex-spp.el"
+;;;;;;  "54e3abc3eb8767262b981683313632d2")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-lex-spp.el
 
 (autoload 'semantic-lex-spp-table-write-slot-value "semantic-lex-spp" "\
 Write out the VALUE of a slot for EIEIO.
@@ -2136,8 +2095,9 @@ Unit test using the test spp file to test the slot write fcn.
 ;;;***
 
 ;;;### (autoloads (semantic-load-enable-all-exuberent-ctags-support)
-;;;;;;  "semantic-load" "semantic-load.el" (20362 59690))
-;;; Generated autoloads from semantic-load.el
+;;;;;;  "semantic-load" "../../../../.emacs.d/cedet-1.1/semantic/semantic-load.el"
+;;;;;;  "82b64bd0fcea8949d64b74e8b9f4f5d8")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-load.el
 
 (autoload 'semantic-load-enable-all-exuberent-ctags-support "semantic-load" "\
 Enable all exuberent ctags extensions.
@@ -2153,8 +2113,9 @@ If you just want to add new languages, use
 
 ;;;### (autoloads (semantic-m3-ref-items semantic-m3-context-items
 ;;;;;;  semantic-m3-add-whatisit semantic-m3-install) "semantic-m3"
-;;;;;;  "semantic-m3.el" (20362 59691))
-;;; Generated autoloads from semantic-m3.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-m3.el"
+;;;;;;  "1b6191cd3a27f619752c07bc777bca6f")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-m3.el
 
 (autoload 'semantic-m3-install "semantic-m3" "\
 Install ourselves into the `cedet-m3' system.
@@ -2180,8 +2141,9 @@ Return a list of menu items for dealing with analyzer refs.
 
 ;;;### (autoloads (semantic-mru-bookmark-mode global-semantic-mru-bookmark-mode
 ;;;;;;  global-semantic-mru-bookmark-mode) "semantic-mru-bookmark"
-;;;;;;  "semantic-mru-bookmark.el" (20362 59691))
-;;; Generated autoloads from semantic-mru-bookmark.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-mru-bookmark.el"
+;;;;;;  "03717709223324f1eb9c84ee6b67d135")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-mru-bookmark.el
 
 (autoload 'global-semantic-mru-bookmark-mode "semantic-mru-bookmark" "\
 Toggle global use of option `semantic-mru-bookmark-mode'.
@@ -2214,9 +2176,9 @@ minor mode is enabled.
 ;;;***
 
 ;;;### (autoloads (semantic-regtest-cmp-results semantic-regtest-create-output
-;;;;;;  semantic-regtest-run-test) "semantic-regtest" "semantic-regtest.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-regtest.el
+;;;;;;  semantic-regtest-run-test) "semantic-regtest" "../../../../.emacs.d/cedet-1.1/semantic/semantic-regtest.el"
+;;;;;;  "8f002100365095665186649b27d28a3e")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-regtest.el
 
 (autoload 'semantic-regtest-run-test "semantic-regtest" "\
 
@@ -2265,9 +2227,9 @@ file-names. See this function for details about the optional argument
 ;;;***
 
 ;;;### (autoloads (semantic-calculate-scope semantic-scope-tag-clone-with-scope
-;;;;;;  semantic-scope-reset-cache) "semantic-scope" "semantic-scope.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-scope.el
+;;;;;;  semantic-scope-reset-cache) "semantic-scope" "../../../../.emacs.d/cedet-1.1/semantic/semantic-scope.el"
+;;;;;;  "6936510858368fa5c797663a896f1616")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-scope.el
 
 (autoload 'semantic-scope-reset-cache "semantic-scope" "\
 Get the current cached scope, and reset it.
@@ -2299,8 +2261,9 @@ The class returned from the scope calculation is variable
 ;;;;;;  semantic-sort-tags-by-name-decreasing-ci semantic-sort-tags-by-name-increasing-ci
 ;;;;;;  semantic-sort-tags-by-type-decreasing semantic-sort-tags-by-type-increasing
 ;;;;;;  semantic-sort-tags-by-name-decreasing semantic-sort-tags-by-name-increasing)
-;;;;;;  "semantic-sort" "semantic-sort.el" (20362 59691))
-;;; Generated autoloads from semantic-sort.el
+;;;;;;  "semantic-sort" "../../../../.emacs.d/cedet-1.1/semantic/semantic-sort.el"
+;;;;;;  "f87b01b84235dd35895bc7ea5f96d28e")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-sort.el
 
 (autoload 'semantic-sort-tags-by-name-increasing "semantic-sort" "\
 Sort TAGS by name in increasing order with side effects.
@@ -2497,9 +2460,9 @@ likely derived, then this function is needed.
 
 ;;;### (autoloads (semantic-insert-foreign-tag semantic-obtain-foreign-tag
 ;;;;;;  semantic-tag-components-with-overlays semantic-tag-components
-;;;;;;  semantic-tag-alias-definition) "semantic-tag" "semantic-tag.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-tag.el
+;;;;;;  semantic-tag-alias-definition) "semantic-tag" "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag.el"
+;;;;;;  "eab33bffe3984341fb46be5fe7c1b279")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-tag.el
 
 (defsubst semantic-tag-p (tag) "\
 Return non-nil if TAG is most likely a semantic tag." (condition-case nil (and (consp tag) (stringp (car tag)) (symbolp (nth 1 tag)) (nth 1 tag) (listp (nth 2 tag)) (listp (nth 3 tag))) (error nil)))
@@ -2553,9 +2516,9 @@ This function is overridable with the symbol `insert-foreign-tag'.
 ;;;***
 
 ;;;### (autoloads (semantic-prototype-file semantic-dependency-tag-file
-;;;;;;  semantic-go-to-tag) "semantic-tag-file" "semantic-tag-file.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-tag-file.el
+;;;;;;  semantic-go-to-tag) "semantic-tag-file" "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-file.el"
+;;;;;;  "a5111d79a432839e102d06854ec113e7")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-file.el
 
 (autoload 'semantic-go-to-tag "semantic-tag-file" "\
 Go to the location of TAG.
@@ -2585,8 +2548,9 @@ file prototypes belong in.
 ;;;### (autoloads (semantic-tag-full-name semantic-tag-prototype-p
 ;;;;;;  semantic-tag-static-p semantic-tag-leaf-p semantic-tag-abstract-p
 ;;;;;;  semantic-tag-protected-p semantic-tag-protection semantic-tag-calculate-parent)
-;;;;;;  "semantic-tag-ls" "semantic-tag-ls.el" (20362 59691))
-;;; Generated autoloads from semantic-tag-ls.el
+;;;;;;  "semantic-tag-ls" "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-ls.el"
+;;;;;;  "0708087f5f1344ec8b94c1708e697bc1")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-ls.el
 
 (autoload 'semantic-tag-calculate-parent "semantic-tag-ls" "\
 Attempt to calculate the parent of TAG.
@@ -2687,8 +2651,9 @@ STREAM-OR-BUFFER with a tag stream value, or nil.
 ;;;***
 
 ;;;### (autoloads (semantic-tag-write-list-slot-value semantic-tag-write-tag-list)
-;;;;;;  "semantic-tag-write" "semantic-tag-write.el" (20362 59691))
-;;; Generated autoloads from semantic-tag-write.el
+;;;;;;  "semantic-tag-write" "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-write.el"
+;;;;;;  "77d188a593d9f77991a00f08def5090f")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-write.el
 
 (autoload 'semantic-tag-write-tag-list "semantic-tag-write" "\
 Write the tag list TLIST to the current stream.
@@ -2705,9 +2670,9 @@ The VALUE is a list of tags.
 
 ;;;***
 
-;;;### (autoloads (semantic-default-texi-setup) "semantic-texi" "semantic-texi.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-texi.el
+;;;### (autoloads (semantic-default-texi-setup) "semantic-texi" "../../../../.emacs.d/cedet-1.1/semantic/semantic-texi.el"
+;;;;;;  "2bc7e4ccda39134a86bccf7546e7794a")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-texi.el
 
 (autoload 'semantic-default-texi-setup "semantic-texi" "\
 Set up a buffer for parsing of Texinfo files.
@@ -2718,9 +2683,9 @@ Set up a buffer for parsing of Texinfo files.
 
 ;;;***
 
-;;;### (autoloads (semantic-utest-main) "semantic-utest" "semantic-utest.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-utest.el
+;;;### (autoloads (semantic-utest-main) "semantic-utest" "../../../../.emacs.d/cedet-1.1/semantic/semantic-utest.el"
+;;;;;;  "d9fc307ecde1fd443e3e821c0f18085d")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-utest.el
 
 (autoload 'semantic-utest-main "semantic-utest" "\
 
@@ -2729,9 +2694,9 @@ Set up a buffer for parsing of Texinfo files.
 
 ;;;***
 
-;;;### (autoloads (semantic-utest-c) "semantic-utest-c" "semantic-utest-c.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semantic-utest-c.el
+;;;### (autoloads (semantic-utest-c) "semantic-utest-c" "../../../../.emacs.d/cedet-1.1/semantic/semantic-utest-c.el"
+;;;;;;  "2862dd018fb9baa18fd95910b001f8cd")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-utest-c.el
 
 (autoload 'semantic-utest-c "semantic-utest-c" "\
 Run parsing test for C from the test directory.
@@ -2748,8 +2713,9 @@ Run parsing test for C from the test directory.
 ;;;;;;  global-semantic-show-unmatched-syntax-mode global-semantic-show-unmatched-syntax-mode
 ;;;;;;  semantic-highlight-edits-mode global-semantic-highlight-edits-mode
 ;;;;;;  global-semantic-highlight-edits-mode) "semantic-util-modes"
-;;;;;;  "semantic-util-modes.el" (20362 59691))
-;;; Generated autoloads from semantic-util-modes.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-util-modes.el"
+;;;;;;  "fe9f8da497f46321f52b8ffd43c0e470")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semantic-util-modes.el
 
 (autoload 'global-semantic-highlight-edits-mode "semantic-util-modes" "\
 Toggle global use of option `semantic-highlight-edits-mode'.
@@ -2906,9 +2872,9 @@ minor mode is enabled.
 ;;;***
 
 ;;;### (autoloads (semanticdb-file-stream semanticdb-file-table-object
-;;;;;;  semanticdb-current-database) "semanticdb" "semanticdb.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semanticdb.el
+;;;;;;  semanticdb-current-database) "semanticdb" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb.el"
+;;;;;;  "21c1f3bd669179980d949c775dc34bf5")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb.el
 
 (autoload 'semanticdb-current-database "semanticdb" "\
 Return the currently active database.
@@ -2934,8 +2900,9 @@ If file does not have tags available, then load the file, and create them.
 ;;;***
 
 ;;;### (autoloads (semanticdb-enable-cscope-databases) "semanticdb-cscope"
-;;;;;;  "semanticdb-cscope.el" (20362 59691))
-;;; Generated autoloads from semanticdb-cscope.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-cscope.el"
+;;;;;;  "5262142ecd4207659d1cba89eca59c04")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-cscope.el
 
 (autoload 'semanticdb-enable-cscope-databases "semanticdb-cscope" "\
 Enable the use of the CScope back end for all files in C/C++.
@@ -2956,9 +2923,9 @@ values.
 ;;;### (autoloads (semanticdb-database-sanity-check semanticdb-table-sanity-check
 ;;;;;;  semanticdb-table-oob-sanity-check semanticdb-adebug-project-database-list
 ;;;;;;  semanticdb-adebug-current-table semanticdb-adebug-current-database
-;;;;;;  semanticdb-dump-all-table-summary) "semanticdb-debug" "semanticdb-debug.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semanticdb-debug.el
+;;;;;;  semanticdb-dump-all-table-summary) "semanticdb-debug" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-debug.el"
+;;;;;;  "bbb824a6be01718732c4ce21c9e28119")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-debug.el
 
 (autoload 'semanticdb-dump-all-table-summary "semanticdb-debug" "\
 Dump a list of all databases in Emacs memory.
@@ -3001,8 +2968,9 @@ Validate the current semantic database.
 
 ;;;### (autoloads (semanticdb-ebrowse-load-helper semanticdb-load-ebrowse-caches
 ;;;;;;  semanticdb-create-ebrowse-database) "semanticdb-ebrowse"
-;;;;;;  "semanticdb-ebrowse.el" (20362 59691))
-;;; Generated autoloads from semanticdb-ebrowse.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-ebrowse.el"
+;;;;;;  "e2840e261bb96e941a0a46c729ec7960")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-ebrowse.el
 
 (autoload 'semanticdb-create-ebrowse-database "semanticdb-ebrowse" "\
 Create an EBROWSE database for directory DIR.
@@ -3027,9 +2995,9 @@ warn instead.
 
 ;;;### (autoloads (semanticdb-full-filename semanticdb-live-p semanticdb-file-loaded-p
 ;;;;;;  semanticdb-persistent-path semanticdb-default-save-directory
-;;;;;;  semanticdb-default-file-name) "semanticdb-file" "semanticdb-file.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semanticdb-file.el
+;;;;;;  semanticdb-default-file-name) "semanticdb-file" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-file.el"
+;;;;;;  "f5ad4c123eba05a6a0b6c92d4e52bc0e")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-file.el
 
 (defvar semanticdb-default-file-name "semantic.cache" "\
 *File name of the semantic tag cache.")
@@ -3091,8 +3059,9 @@ Fetch the full filename that OBJ refers to.
 ;;;;;;  semanticdb-find-adebug-scanned-includes semanticdb-test-current-database-list
 ;;;;;;  semanticdb-find-test-translate-path semanticdb-find-table-for-include
 ;;;;;;  semanticdb-find-translate-path-default semanticdb-find-default-throttle)
-;;;;;;  "semanticdb-find" "semanticdb-find.el" (20362 59691))
-;;; Generated autoloads from semanticdb-find.el
+;;;;;;  "semanticdb-find" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-find.el"
+;;;;;;  "29363f8c77528cd08beac1106f8dcc9c")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-find.el
 
 (defvar semanticdb-find-throttle-custom-list '(repeat (radio (const 'local) (const 'project) (const 'unloaded) (const 'system) (const 'recursive) (const 'omniscience))) "\
 Customization values for semanticdb find throttle.
@@ -3354,8 +3323,9 @@ associated with that tag should be loaded into a buffer.
 ;;;***
 
 ;;;### (autoloads (semanticdb-enable-gnu-global-databases) "semanticdb-global"
-;;;;;;  "semanticdb-global.el" (20362 59691))
-;;; Generated autoloads from semanticdb-global.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-global.el"
+;;;;;;  "dbd56003d9b8bc0389aeab4ad53f8d96")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-global.el
 
 (autoload 'semanticdb-enable-gnu-global-databases "semanticdb-global" "\
 Enable the use of the GNU Global SemanticDB back end for all files of MODE.
@@ -3374,9 +3344,9 @@ values.
 ;;;***
 
 ;;;### (autoloads (global-semanticdb-minor-mode semanticdb-minor-mode-p
-;;;;;;  semanticdb-global-mode) "semanticdb-mode" "semanticdb-mode.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semanticdb-mode.el
+;;;;;;  semanticdb-global-mode) "semanticdb-mode" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-mode.el"
+;;;;;;  "e6eeb1e54859009e218c747e3d5cb538")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-mode.el
 
 (defvar semanticdb-current-database nil "\
 For a given buffer, this is the currently active database.")
@@ -3403,9 +3373,9 @@ If ARG is nil, then toggle.
 
 ;;;***
 
-;;;### (autoloads (semanticdb-add-reference) "semanticdb-ref" "semanticdb-ref.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from semanticdb-ref.el
+;;;### (autoloads (semanticdb-add-reference) "semanticdb-ref" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-ref.el"
+;;;;;;  "d1adcaad86d62381b0e469d21ed87466")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-ref.el
 
 (autoload 'semanticdb-add-reference "semanticdb-ref" "\
 Add a reference for the database table DBT based on INCLUDE-TAG.
@@ -3420,8 +3390,9 @@ will be added to the database that INCLUDE-TAG refers to.
 ;;;;;;  semanticdb-find-nonterminal-by-extra-spec semanticdb-find-nonterminal-by-property
 ;;;;;;  semanticdb-find-nonterminal-by-type semanticdb-find-nonterminal-by-name-regexp
 ;;;;;;  semanticdb-find-nonterminal-by-name semanticdb-find-nonterminal-by-token)
-;;;;;;  "semanticdb-search" "semanticdb-search.el" (20362 59691))
-;;; Generated autoloads from semanticdb-search.el
+;;;;;;  "semanticdb-search" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-search.el"
+;;;;;;  "ee205c22a5087569f045aa12aa2b3ca5")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-search.el
 
 (autoload 'semanticdb-find-nonterminal-by-token "semanticdb-search" "\
 OBSOLETE:
@@ -3510,8 +3481,9 @@ Return a list ((DB-TABLE . TOKEN-OR-TOKEN-LIST) ...).
 ;;;;;;  semanticdb-typecache-merge-streams semanticdb-get-typecache
 ;;;;;;  semanticdb-get-typecache semanticdb-typecache-add-dependant
 ;;;;;;  semanticdb-typecache-notify-reset) "semanticdb-typecache"
-;;;;;;  "semanticdb-typecache.el" (20362 59691))
-;;; Generated autoloads from semanticdb-typecache.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-typecache.el"
+;;;;;;  "7106581a3a59330ad26b29e48cf8bb4d")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/semanticdb-typecache.el
 
 (eieio-defclass-autoload 'semanticdb-typecache 'nil "semanticdb-typecache" "Structure for maintaining a typecache.")
 
@@ -3576,9 +3548,9 @@ Dump the typecache for the current buffer's database.
 ;;;;;;  senator-search-forward senator-completion-menu-popup senator-complete-symbol
 ;;;;;;  senator-jump-regexp senator-jump senator-previous-tag senator-next-tag
 ;;;;;;  senator-step-at-start-end-tag-classes senator-step-at-tag-classes
-;;;;;;  global-senator-minor-mode) "senator" "senator.el" (20362
-;;;;;;  59691))
-;;; Generated autoloads from senator.el
+;;;;;;  global-senator-minor-mode) "senator" "../../../../.emacs.d/cedet-1.1/semantic/senator.el"
+;;;;;;  "2ea32b93f2894a36fab3cb833dd71597")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/senator.el
 
 (defvar global-senator-minor-mode nil "\
 *If non-nil enable global use of senator minor mode.")
@@ -3743,181 +3715,9 @@ found, nil otherwise.
 
 ;;;***
 
-;;;### (autoloads (semantic-symref-find-text semantic-symref-find-file-references-by-name
-;;;;;;  semantic-symref-find-tags-by-completion semantic-symref-find-tags-by-regexp
-;;;;;;  semantic-symref-find-tags-by-name semantic-symref-find-references-by-name)
-;;;;;;  "symref/semantic-symref" "symref/semantic-symref.el" (20362
-;;;;;;  59691))
-;;; Generated autoloads from symref/semantic-symref.el
-
-(autoload 'semantic-symref-find-references-by-name "symref/semantic-symref" "\
-Find a list of references to NAME in the current project.
-Optional SCOPE specifies which file set to search.  Defaults to 'project.
-Refers to `semantic-symref-tool', to determine the reference tool to use
-for the current buffer.
-Returns an object of class `semantic-symref-result'.
-TOOL-RETURN is an optional symbol, which will be assigned the tool used
-to perform the search.  This was added for use by a test harness.
-
-\(fn NAME &optional SCOPE TOOL-RETURN)" t nil)
-
-(autoload 'semantic-symref-find-tags-by-name "symref/semantic-symref" "\
-Find a list of tags by NAME in the current project.
-Optional SCOPE specifies which file set to search.  Defaults to 'project.
-Refers to `semantic-symref-tool', to determine the reference tool to use
-for the current buffer.
-Returns an object of class `semantic-symref-result'.
-
-\(fn NAME &optional SCOPE)" t nil)
-
-(autoload 'semantic-symref-find-tags-by-regexp "symref/semantic-symref" "\
-Find a list of references to NAME in the current project.
-Optional SCOPE specifies which file set to search.  Defaults to 'project.
-Refers to `semantic-symref-tool', to determine the reference tool to use
-for the current buffer.
-Returns an object of class `semantic-symref-result'.
-
-\(fn NAME &optional SCOPE)" t nil)
-
-(autoload 'semantic-symref-find-tags-by-completion "symref/semantic-symref" "\
-Find a list of references to NAME in the current project.
-Optional SCOPE specifies which file set to search.  Defaults to 'project.
-Refers to `semantic-symref-tool', to determine the reference tool to use
-for the current buffer.
-Returns an object of class `semantic-symref-result'.
-
-\(fn NAME &optional SCOPE)" t nil)
-
-(autoload 'semantic-symref-find-file-references-by-name "symref/semantic-symref" "\
-Find a list of references to NAME in the current project.
-Optional SCOPE specifies which file set to search.  Defaults to 'project.
-Refers to `semantic-symref-tool', to determine the reference tool to use
-for the current buffer.
-Returns an object of class `semantic-symref-result'.
-
-\(fn NAME &optional SCOPE)" t nil)
-
-(autoload 'semantic-symref-find-text "symref/semantic-symref" "\
-Find a list of occurrences of TEXT in the current project.
-TEXT is a regexp formatted for use with egrep.
-Optional SCOPE specifies which file set to search.  Defaults to 'project.
-Refers to `semantic-symref-tool', to determine the reference tool to use
-for the current buffer.
-Returns an object of class `semantic-symref-result'.
-
-\(fn TEXT &optional SCOPE)" t nil)
-
-;;;***
-
-;;;### (autoloads nil "symref/semantic-symref-cscope" "symref/semantic-symref-cscope.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from symref/semantic-symref-cscope.el
-
-(eieio-defclass-autoload 'semantic-symref-tool-cscope '(semantic-symref-tool-baseclass) "symref/semantic-symref-cscope" "A symref tool implementation using CScope.\nThe CScope command can be used to generate lists of tags in a way\nsimilar to that of `grep'.  This tool will parse the output to generate\nthe hit list.\n\nSee the function `cedet-cscope-search' for more details.")
-
-;;;***
-
-;;;### (autoloads (semantic-symref-rename-local-variable semantic-symref-test-count-hits-in-tag
-;;;;;;  semantic-symref-hits-in-region) "symref/semantic-symref-filter"
-;;;;;;  "symref/semantic-symref-filter.el" (20362 59691))
-;;; Generated autoloads from symref/semantic-symref-filter.el
-
-(autoload 'semantic-symref-hits-in-region "symref/semantic-symref-filter" "\
-Find all occurrences of the symbol TARGET that match TARGET the tag.
-For each match, call HOOKFCN.
-HOOKFCN takes three arguments that match
-`semantic-analyze-current-symbol's use of HOOKFCN.
-  ( START END PREFIX )
-
-Search occurs in the current buffer between START and END.
-
-\(fn TARGET HOOKFCN START END)" nil nil)
-
-(autoload 'semantic-symref-test-count-hits-in-tag "symref/semantic-symref-filter" "\
-Lookup in the current tag the symbol under point.
-the count all the other references to the same symbol within the
-tag that contains point, and return that.
-
-\(fn)" t nil)
-
-(autoload 'semantic-symref-rename-local-variable "symref/semantic-symref-filter" "\
-Fancy way to rename the local variable under point.
-Depends on the SRecode Field editing API.
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads nil "symref/semantic-symref-global" "symref/semantic-symref-global.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from symref/semantic-symref-global.el
-
-(eieio-defclass-autoload 'semantic-symref-tool-global '(semantic-symref-tool-baseclass) "symref/semantic-symref-global" "A symref tool implementation using GNU Global.\nThe GNU Global command can be used to generate lists of tags in a way\nsimilar to that of `grep'.  This tool will parse the output to generate\nthe hit list.\n\nSee the function `cedet-gnu-global-search' for more details.")
-
-;;;***
-
-;;;### (autoloads nil "symref/semantic-symref-grep" "symref/semantic-symref-grep.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from symref/semantic-symref-grep.el
-
-(eieio-defclass-autoload 'semantic-symref-tool-grep '(semantic-symref-tool-baseclass) "symref/semantic-symref-grep" "A symref tool implementation using grep.\nThis tool uses EDE to find he root of the project, then executes\nfind-grep in the project.  The output is parsed for hits\nand those hits returned.")
-
-;;;***
-
-;;;### (autoloads nil "symref/semantic-symref-idutils" "symref/semantic-symref-idutils.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from symref/semantic-symref-idutils.el
-
-(eieio-defclass-autoload 'semantic-symref-tool-idutils '(semantic-symref-tool-baseclass) "symref/semantic-symref-idutils" "A symref tool implementation using ID Utils.\nThe udutils command set can be used to generate lists of tags in a way\nsimilar to that of `grep'.  This tool will parse the output to generate\nthe hit list.\n\nSee the function `cedet-idutils-search' for more details.")
-
-;;;***
-
-;;;### (autoloads (semantic-symref-results-mode semantic-symref-regexp
-;;;;;;  semantic-symref-symbol semantic-symref) "symref/semantic-symref-list"
-;;;;;;  "symref/semantic-symref-list.el" (20362 59691))
-;;; Generated autoloads from symref/semantic-symref-list.el
-
-(autoload 'semantic-symref "symref/semantic-symref-list" "\
-Find references to the current tag.
-This command uses the currently configured references tool within the
-current project to find references to the current tag.  The
-references are the organized by file and the name of the function
-they are used in.
-Display the references in`semantic-symref-results-mode'.
-
-\(fn)" t nil)
-
-(autoload 'semantic-symref-symbol "symref/semantic-symref-list" "\
-Find references to the symbol SYM.
-This command uses the currently configured references tool within the
-current project to find references to the input SYM.  The
-references are the organized by file and the name of the function
-they are used in.
-Display the references in`semantic-symref-results-mode'.
-
-\(fn SYM)" t nil)
-
-(autoload 'semantic-symref-regexp "symref/semantic-symref-list" "\
-Find references to the a symbol regexp SYM.
-This command uses the currently configured references tool within the
-current project to find references to the input SYM.  The
-references are the organized by file and the name of the function
-they are used in.
-Display the references in`semantic-symref-results-mode'.
-
-\(fn SYM)" t nil)
-
-(autoload 'semantic-symref-results-mode "symref/semantic-symref-list" "\
-Major-mode for displaying Semantic Symbol Reference RESULTS.
-RESULTS is an object of class `semantic-symref-results'.
-
-\(fn RESULTS)" t nil)
-
-;;;***
-
-;;;### (autoloads (bison->wisent) "wisent/bison-wisent" "wisent/bison-wisent.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from wisent/bison-wisent.el
+;;;### (autoloads (bison->wisent) "wisent/bison-wisent" "../../../../.emacs.d/cedet-1.1/semantic/wisent/bison-wisent.el"
+;;;;;;  "968a01a80a77b74e9725d85fc50608e0")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/bison-wisent.el
 
 (autoload 'bison->wisent "wisent/bison-wisent" "\
 Treat the current buffer as a YACC or BISON file, and translate to wisent.
@@ -3930,8 +3730,9 @@ Deletes all actions, replacing them with small comments.
 ;;;***
 
 ;;;### (autoloads (wisent-parse-toggle-verbose-flag) "wisent/wisent"
-;;;;;;  "wisent/wisent.el" (20362 59691))
-;;; Generated autoloads from wisent/wisent.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent.el"
+;;;;;;  "7d9d1bb601ca019147c848a57d5b03f0")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent.el
 
 (defvar wisent-parse-verbose-flag nil "\
 *Non-nil means to issue more messages while parsing.")
@@ -3944,8 +3745,9 @@ Toggle whether to issue more messages while parsing.
 ;;;***
 
 ;;;### (autoloads (wisent-calc-utest wisent-calc) "wisent/wisent-calc"
-;;;;;;  "wisent/wisent-calc.el" (20362 59691))
-;;; Generated autoloads from wisent/wisent-calc.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-calc.el"
+;;;;;;  "37fbd0b046d67a6051bab5e4ffe28c01")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-calc.el
 
 (autoload 'wisent-calc "wisent/wisent-calc" "\
 Infix desktop calculator.
@@ -3961,9 +3763,9 @@ Test the wisent calculator.
 ;;;***
 
 ;;;### (autoloads (wisent-byte-compile-grammar wisent-compile-grammar
-;;;;;;  wisent-toggle-verbose-flag) "wisent/wisent-comp" "wisent/wisent-comp.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from wisent/wisent-comp.el
+;;;;;;  wisent-toggle-verbose-flag) "wisent/wisent-comp" "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-comp.el"
+;;;;;;  "9409019b0502c78d9d137fabb6ce9456")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-comp.el
 
 (defvar wisent-verbose-flag nil "\
 *Non-nil means to report verbose information on generated parser.")
@@ -4026,9 +3828,9 @@ Automatically called by the Emacs Lisp byte compiler as a
 ;;;***
 
 ;;;### (autoloads (wisent-debug-show-entry wisent-cancel-debug-on-entry
-;;;;;;  wisent-debug-on-entry) "wisent/wisent-debug" "wisent/wisent-debug.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from wisent/wisent-debug.el
+;;;;;;  wisent-debug-on-entry) "wisent/wisent-debug" "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-debug.el"
+;;;;;;  "ff1e1e69e53c7546ce76afaef7f1cc06")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-debug.el
 
 (autoload 'wisent-debug-on-entry "wisent/wisent-debug" "\
 Request AUTOMATON's FUNCTION to invoke debugger each time it is called.
@@ -4050,9 +3852,9 @@ FUNCTION must be a semantic action symbol that exists in AUTOMATON.
 
 ;;;***
 
-;;;### (autoloads (wisent-grammar-mode) "wisent/wisent-grammar" "wisent/wisent-grammar.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from wisent/wisent-grammar.el
+;;;### (autoloads (wisent-grammar-mode) "wisent/wisent-grammar" "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-grammar.el"
+;;;;;;  "973a9f7da1ed76647797dc7da9c57e76")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-grammar.el
 
 (autoload 'wisent-grammar-mode "wisent/wisent-grammar" "\
 Major mode for editing Wisent grammars.
@@ -4065,17 +3867,18 @@ Major mode for editing Wisent grammars.
 
 ;;;***
 
-;;;### (autoloads nil "wisent/wisent-java" "wisent/wisent-java.el"
-;;;;;;  (20362 59691))
-;;; Generated autoloads from wisent/wisent-java.el
+;;;### (autoloads nil "wisent/wisent-java" "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java.el"
+;;;;;;  "fd187e4cfbfca33320c22f594023d369")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java.el
 
 (eval-after-load "semanticdb" '(require 'semanticdb-javap))
 
 ;;;***
 
 ;;;### (autoloads (wisent-java-default-setup) "wisent/wisent-java-tags"
-;;;;;;  "wisent/wisent-java-tags.el" (20362 59691))
-;;; Generated autoloads from wisent/wisent-java-tags.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java-tags.el"
+;;;;;;  "e5015d0997122ca39b2b46206bfd6e85")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java-tags.el
 
 (autoload 'wisent-java-default-setup "wisent/wisent-java-tags" "\
 Hook run to setup Semantic in `java-mode'.
@@ -4088,8 +3891,9 @@ Use the alternate LALR(1) parser.
 ;;;***
 
 ;;;### (autoloads (wisent-javascript-setup-parser) "wisent/wisent-javascript"
-;;;;;;  "wisent/wisent-javascript.el" (20362 59691))
-;;; Generated autoloads from wisent/wisent-javascript.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-javascript.el"
+;;;;;;  "4cd3f0551df4a30e7d28519aadde9dc0")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-javascript.el
 
 (autoload 'wisent-javascript-setup-parser "wisent/wisent-javascript" "\
 Setup buffer for parse.
@@ -4107,8 +3911,9 @@ Setup buffer for parse.
 ;;;***
 
 ;;;### (autoloads (wisent-python-default-setup) "wisent/wisent-python"
-;;;;;;  "wisent/wisent-python.el" (20362 59691))
-;;; Generated autoloads from wisent/wisent-python.el
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-python.el"
+;;;;;;  "e66040b1ff2848d7e98616ec3d551807")
+;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-python.el
 
 (autoload 'wisent-python-default-setup "wisent/wisent-python" "\
 Setup buffer for parse.
@@ -4119,18 +3924,113 @@ Setup buffer for parse.
 
 ;;;***
 
-;;;### (autoloads nil nil ("bovine/bovine-grammar-macros.el" "bovine/semantic-c-by.el"
-;;;;;;  "bovine/semantic-erlang-by.el" "bovine/semantic-erlang.el"
-;;;;;;  "bovine/semantic-f90-by.el" "bovine/semantic-java.el" "bovine/semantic-make-by.el"
-;;;;;;  "bovine/semantic-scm-by.el" "semantic-analyze-fcn.el" "semantic-ast.el"
-;;;;;;  "semantic-example.el" "semantic-fw.el" "semantic-grammar-wy.el"
-;;;;;;  "semantic-sb.el" "semantic-util.el" "semanticdb-el.el" "semanticdb-javap.el"
-;;;;;;  "semanticdb-javascript.el" "semanticdb-mk.el" "semanticdb-skel.el"
-;;;;;;  "wisent/semantic-wisent.el" "wisent/wisent-awk-wy.el" "wisent/wisent-calc-wy.el"
-;;;;;;  "wisent/wisent-cim-wy.el" "wisent/wisent-expr.el" "wisent/wisent-grammar-macros.el"
-;;;;;;  "wisent/wisent-java-tags-wy.el" "wisent/wisent-java-wy.el"
-;;;;;;  "wisent/wisent-javascript-jv-wy.el" "wisent/wisent-python-wy.el")
-;;;;;;  (20436 56479 560724))
+;;;### (autoloads nil nil ("../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-debug.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-grammar-macros.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/bovine-grammar.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-bovine.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-c-by.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-c.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-clang.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-el.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-erlang-by.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-erlang.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-f90-by.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-f90.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-gcc.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-java.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-make-by.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-make.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-scm-by.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-scm.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/bovine/semantic-skel.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-adebug.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-complete.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-debug.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-fcn.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze-refs.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-analyze.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-ast.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-chart.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-complete.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-ctxt.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-custom.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-debug.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate-include.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate-mode.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-decorate.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-dep.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-doc.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-ede-grammar.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-edit.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-elp.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-example.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-find.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-fmt-utest.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-format.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-fw.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-grammar-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-grammar.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-html.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-ia-sb.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-ia-utest.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-ia.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-idle.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-imenu.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-lex-spp.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-lex.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-load.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-m3.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-mru-bookmark.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-regtest.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-sb.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-scope.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-sort.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-file.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-ls.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag-write.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-tag.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-texi.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-utest-c.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-utest.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-util-modes.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic-util.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semantic.el" "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-cscope.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-debug.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-ebrowse.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-el.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-file.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-find.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-global.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-javap.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-javascript.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-mk.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-mode.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-ref.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-search.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-skel.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb-typecache.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/semanticdb.el" "../../../../.emacs.d/cedet-1.1/semantic/senator.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/bison-wisent.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/semantic-wisent.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-awk-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-calc-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-calc.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-cim-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-comp.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-debug.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-expr.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-grammar-macros.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-grammar.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java-tags-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java-tags.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-java.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-javascript-jv-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-javascript.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-python-wy.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent-python.el"
+;;;;;;  "../../../../.emacs.d/cedet-1.1/semantic/wisent/wisent.el")
+;;;;;;  (20620 56599 489303))
 
 ;;;***
 
