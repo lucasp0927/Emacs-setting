@@ -2,7 +2,7 @@
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
 (setq interpreter-mode-alist (cons '("python" . python-mode)
                                    interpreter-mode-alist))
-(autoload 'python-mode "python-mode" "Python editing mode." t)
+;;(autoload 'python-mode "python-mode" "Python editing mode." t)
 (when (eq system-type 'gnu/linux) ;; linux specific settings
   (setq py-python-command  "/usr/bin/python2")
 
