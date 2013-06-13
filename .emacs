@@ -25,6 +25,8 @@
 (add-to-list 'load-path "~/.emacs.d/ecb-snap")
 (add-to-list 'load-path "~/.emacs.d/org-mode")
 (add-to-list 'load-path "~/.emacs.d/custom")
+(add-to-list 'load-path "~/.emacs.d/go-mode")
+(require 'go-mode-load)
 ;(add-to-list 'load-path "~/.emacs.d/w3m")
 ;; (load "~/.emacs.d/ess-5.12/lisp/ess-site")
 (load "emacs_cedet")
