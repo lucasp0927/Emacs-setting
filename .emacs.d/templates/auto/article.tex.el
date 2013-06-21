@@ -1,17 +1,15 @@
 (TeX-add-style-hook "article.tex"
  (lambda ()
     (TeX-run-style-hooks
-     "fontenc"
-     "T1"
      "lmodern"
      "listings"
-     "xeCJK"
      "geometry"
      "url"
      "subfig"
      "float"
      "graphicx"
      "graphics"
+     "xeCJK"
      "bm"
      "amssymb"
      "amsmath"

@@ -12,7 +12,7 @@
 % \setmonofont{Consolas}
 %\setCJKmainfont{新細明體}
 \setmonofont{DejaVu Sans Mono}
-\setCJKmainfont{cwTeX 明體}
+\setCJKmainfont{cwTeX Q Ming}
 % for chinese document
 \renewcommand{\figurename}{圖}
 \renewcommand{\tablename}{表格}

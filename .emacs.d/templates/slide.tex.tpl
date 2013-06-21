@@ -1,8 +1,7 @@
-\documentclass[dvipdfm]{beamer}
+\documentclass[mathserif]{beamer}
 \usepackage{fontspec}
-\setmainfont{cwTeX 仿宋體}
-\setsansfont{AR PL UKai TW}
-
+%\setmainfont{cwTeX 仿宋體}
+\setsansfont{cwTeX Q Ming}
 \mode<presentation>
 {
 \usetheme{Warsaw}
@@ -23,13 +22,10 @@
 \section{Section Title}
 \subsection{Subsection Title}
 
-
-
 \frame {
 \frametitle{}
 \begin{description}
 \end{description}
 }
-
 
 \end{document}

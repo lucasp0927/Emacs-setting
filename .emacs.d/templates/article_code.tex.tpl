@@ -6,7 +6,7 @@
 \usepackage{listings}
 \setmainfont{Times New Roman}
 \setmonofont{Consolas}
-\setCJKmainfont{cwTeX 明體}
+\setCJKmainfont{cwTeX Q Ming}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 \lstset{basicstyle=\footnotesize,numbers=left,numberstyle=\footnotesize,stepnumber=2,numbersep=5pt,showspaces=false,showstringspaces=false,showtabs=false,frame=single,tabsize=2,breaklines=true,breakatwhitespace=false,morecomment=[l]{//}}
