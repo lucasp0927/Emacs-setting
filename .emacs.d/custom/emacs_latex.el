@@ -6,7 +6,9 @@
 ;(load "preview-latex.el" nil t t)
 ;;(load "~/.emacs.d/auctex.el" nil t t)
 ;;(load "~/.emacs.d/preview-latex.el" nil t t)
-;;(load "~/.emacs.d/auctex-11.86/auctex.el" nil t t)
+(add-to-list 'load-path "~/.emacs.d/elpa/auctex-11.86.1")
+(setq load-path (cons "~/.emacs.d/elpa/auctex-11.86.1" load-path))
+;;(load "~/.emacs.d/auctex-11.86.1/auctex.el" nil t t)
 
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
