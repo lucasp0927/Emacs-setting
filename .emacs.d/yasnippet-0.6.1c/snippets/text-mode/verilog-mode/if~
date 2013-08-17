@@ -1,5 +1,0 @@
-if ($(1:statement)) begin
-$0
-end else begin
-
-end

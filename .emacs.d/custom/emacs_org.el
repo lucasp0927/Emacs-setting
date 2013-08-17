@@ -15,8 +15,8 @@
 
 ;;   (global-set-key (kbd "C-c r") 'remember)                                         
 
-(add-to-list 'load-path "~/.emacs.d/elpa/org-20130812")
-(setq load-path (cons "~/.emacs.d/elpa/org-20130812" load-path))
+;;(add-to-list 'load-path "~/.emacs.d/elpa/org-20130812")
+;;(setq load-path (cons "~/.emacs.d/elpa/org-20130812" load-path))
 (require 'org-publish)
  (setq org-export-with-LaTeX-fragments t)
 ;;    (require 'org-publish)

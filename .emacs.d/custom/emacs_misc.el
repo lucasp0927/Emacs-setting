@@ -256,7 +256,7 @@
       `((".*" ,temporary-file-directory t)))
 
 ;;rainbow
-(require 'rainbow-delimiters)
+(require 'rainbow-mode)
 ;;(setq-default frame-background-mode 'dark)
 
 ;;autopair
