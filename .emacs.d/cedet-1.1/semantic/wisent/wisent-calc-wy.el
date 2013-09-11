@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002, 2003, 2009 David Ponce
 
-;; Author: Lucas Peng <lucaspeng@lucas-ubuntu>
-;; Created: 2012-06-11 01:43:03+0800
+;; Author: Lucas Peng <lucaspeng@Lucass-MacBook-Air.local>
+;; Created: 2013-09-12 01:01:17+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

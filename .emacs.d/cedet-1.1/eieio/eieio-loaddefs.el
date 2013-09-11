@@ -1,11 +1,11 @@
-;;; eieio-loaddefs.el --- automatically extracted autoloads
+;;; eieio-loaddefs.el --- Auto-generated CEDET autoloads
 ;;
 ;;; Code:
 
 
-;;;### (autoloads (chart-test-it-all) "chart" "../../../../.emacs.d/cedet-1.1/eieio/chart.el"
-;;;;;;  "116a10d66dddfc4fc8f3cda8793cbbc5")
-;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/eieio/chart.el
+;;;### (autoloads (chart-test-it-all) "chart" "chart.el" (21040 37503
+;;;;;;  0 0))
+;;; Generated autoloads from chart.el
 
 (autoload 'chart-test-it-all "chart" "\
 Test out various charting features.
@@ -15,9 +15,9 @@ Test out various charting features.
 ;;;***
 
 ;;;### (autoloads (data-debug-show data-debug-insert-object-button
-;;;;;;  data-debug-insert-object-slots) "eieio-datadebug" "../../../../.emacs.d/cedet-1.1/eieio/eieio-datadebug.el"
-;;;;;;  "4a938b29d60173eaf52df1d3072f9fbf")
-;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/eieio/eieio-datadebug.el
+;;;;;;  data-debug-insert-object-slots) "eieio-datadebug" "eieio-datadebug.el"
+;;;;;;  (21040 37503 0 0))
+;;; Generated autoloads from eieio-datadebug.el
 
 (autoload 'data-debug-insert-object-slots "eieio-datadebug" "\
 Insert all the slots of OBJECT.
@@ -40,9 +40,9 @@ Run ddebug against any EIEIO object OBJ
 ;;;***
 
 ;;;### (autoloads (eieio-describe-generic eieio-describe-constructor
-;;;;;;  eieio-describe-class eieio-browse) "eieio-opt" "../../../../.emacs.d/cedet-1.1/eieio/eieio-opt.el"
-;;;;;;  "ef0a2a0757b7602551c1a9669229813d")
-;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/eieio/eieio-opt.el
+;;;;;;  eieio-describe-class eieio-browse) "eieio-opt" "eieio-opt.el"
+;;;;;;  (21040 37503 0 0))
+;;; Generated autoloads from eieio-opt.el
 
 (autoload 'eieio-browse "eieio-opt" "\
 Create an object browser window to show all objects.
@@ -81,9 +81,8 @@ Also extracts information about all methods specific to this generic.
 ;;;***
 
 ;;;### (autoloads (eieio-perftest-onemethodcall eieio-perftest-methodcall)
-;;;;;;  "eieio-perftest" "../../../../.emacs.d/cedet-1.1/eieio/eieio-perftest.el"
-;;;;;;  "c9acb1f66b3ce2f9a9c5b9ed9b5d0f4e")
-;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/eieio/eieio-perftest.el
+;;;;;;  "eieio-perftest" "eieio-perftest.el" (21040 37503 0 0))
+;;; Generated autoloads from eieio-perftest.el
 
 (autoload 'eieio-perftest-methodcall "eieio-perftest" "\
 Test and time performance of method invocation.
@@ -97,9 +96,9 @@ Test and time performance of method invocation.
 
 ;;;***
 
-;;;### (autoloads (enable-visual-studio-bookmarks) "linemark" "../../../../.emacs.d/cedet-1.1/eieio/linemark.el"
-;;;;;;  "bbe209542cb57b53e277ffa4bae9a609")
-;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/eieio/linemark.el
+;;;### (autoloads (enable-visual-studio-bookmarks) "linemark" "linemark.el"
+;;;;;;  (21040 37503 0 0))
+;;; Generated autoloads from linemark.el
 
 (autoload 'enable-visual-studio-bookmarks "linemark" "\
 Bind the viss bookmark functions to F2 related keys.
@@ -113,9 +112,9 @@ Bind the viss bookmark functions to F2 related keys.
 
 ;;;***
 
-;;;### (autoloads (lmcompile-do-highlight) "lmcompile" "../../../../.emacs.d/cedet-1.1/eieio/lmcompile.el"
-;;;;;;  "351f4ddf672c0b8fc6cf2d4cee9fc5a5")
-;;; Generated autoloads from ../../../../.emacs.d/cedet-1.1/eieio/lmcompile.el
+;;;### (autoloads (lmcompile-do-highlight) "lmcompile" "lmcompile.el"
+;;;;;;  (21040 37503 0 0))
+;;; Generated autoloads from lmcompile.el
 
 (autoload 'lmcompile-do-highlight "lmcompile" "\
 Do compilation mode highlighting.
@@ -125,18 +124,10 @@ Works on grep, compile, or other type mode.
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../.emacs.d/cedet-1.1/eieio/chart.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-base.el" "../../../../.emacs.d/cedet-1.1/eieio/eieio-comp.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-custom.el" "../../../../.emacs.d/cedet-1.1/eieio/eieio-datadebug.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-doc.el" "../../../../.emacs.d/cedet-1.1/eieio/eieio-load.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-opt.el" "../../../../.emacs.d/cedet-1.1/eieio/eieio-perftest.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-speedbar.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-test-methodinvoke.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-test-mro.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-test-persist.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/eieio-tests.el" "../../../../.emacs.d/cedet-1.1/eieio/eieio.el"
-;;;;;;  "../../../../.emacs.d/cedet-1.1/eieio/linemark.el" "../../../../.emacs.d/cedet-1.1/eieio/lmcompile.el")
-;;;;;;  (20620 56603 699725))
+;;;### (autoloads nil nil ("eieio-base.el" "eieio-comp.el" "eieio-custom.el"
+;;;;;;  "eieio-doc.el" "eieio-load.el" "eieio-speedbar.el" "eieio-test-methodinvoke.el"
+;;;;;;  "eieio-test-mro.el" "eieio-test-persist.el" "eieio-tests.el"
+;;;;;;  "eieio.el") (21040 41427 535480 0))
 
 ;;;***
 

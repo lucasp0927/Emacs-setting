@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2001, 2003, 2009 Eric M. Ludlam
 
-;; Author: Lucas Peng <lucaspeng@lucas-ubuntu>
-;; Created: 2012-06-11 01:43:09+0800
+;; Author: Lucas Peng <lucaspeng@Lucass-MacBook-Air.local>
+;; Created: 2013-09-12 01:01:24+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
