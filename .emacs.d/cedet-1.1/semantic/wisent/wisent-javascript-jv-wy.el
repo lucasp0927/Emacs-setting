@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2005-2011 Free Software Foundation, Inc.
 
-;; Author: Lucas Peng <lucaspeng@Lucass-MacBook-Air.local>
-;; Created: 2013-09-12 01:01:21+0800
+;; Author: Lucas Peng <lucaspeng@LucasUbuntu>
+;; Created: 2013-11-14 01:13:10-0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
