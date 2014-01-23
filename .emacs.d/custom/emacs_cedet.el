@@ -41,8 +41,8 @@
         include-dirs))
 ;;用f12 跳到特定函數 用shift f 12 跳回來
 
-(global-set-key [f12] 'semantic-ia-fast-jump)
-(global-set-key [S-f12]
+(global-set-key [f9] 'semantic-ia-fast-jump)
+(global-set-key [S-f9]
                 (lambda ()
                   (interactive)
                   (if (ring-empty-p (oref semantic-mru-bookmark-ring ring))

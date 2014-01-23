@@ -50,7 +50,7 @@
 (load "emacs_org")
 (load "emacs_snippet")
 (load "emacs_latex")
-(load "emacs_autocomplete")
+;;(load "emacs_autocomplete")
 ;;(load "emacs_verilog")
 ;;(when (eq system-type 'gnu/linux) ;; linux specific settings
   (load "emacs_python")
