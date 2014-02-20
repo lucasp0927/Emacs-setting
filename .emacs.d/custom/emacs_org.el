@@ -13,48 +13,45 @@
 ;;;;     (setq org-directory "~/homework/todo")
 ;;;;     (setq org-default-notes-file (concat org-directory "/todo.org"))
 
-;;   (global-set-key (kbd "C-c r") 'remember)                                         
+;;   (global-set-key (kbd "C-c r") 'remember)                                        
 
-;;(add-to-list 'load-path "~/.emacs.d/elpa/org-20130812")
-;;(setq load-path (cons "~/.emacs.d/elpa/org-20130812" load-path))
+(add-to-list 'load-path "~/.emacs.d/elpa/org-20140217")
+(setq load-path (cons "~/.emacs.d/elpa/org-20140217" load-path))
 (require 'org-publish)
- (setq org-export-with-LaTeX-fragments t)
-;;    (require 'org-publish)
+(setq org-export-with-LaTeX-fragments t)
 (setq org-publish-project-alist
-'(
-("wikinotes"
-:base-directory "~/WikiNotes/org/"
-:base-extension "org"
-:publishing-directory "~/WikiNotes/publish/"
-:recursive t
-:publishing-function org-publish-org-to-html
-:section-numbers nil
-:auto-preamble t
-:table-of-contents nil
-:style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
-:style-include-default t
-:author-info t
-:email-info nil
-:creator-info t
-)
-("org-static"
- :base-directory "~/WikiNotes/org"
- :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
- :publishing-directory "~/WikiNotes/publish"
- :recursive t
- :publishing-function org-publish-attachment
-)
-
-("lucas" :components ("wikinotes" "org-static"))
-))
-;;(setq org-export-with-LaTeX-fragments 'dvipng)
+      '(
+        ("wikinotes"
+         :base-directory "~/WikiNotes/org/" ;Wikinote part
+         ;; :base-extension "org"
+         :publishing-directory "~/WikiNotes/publish/"
+         ;; :recursive t
+         :publishing-function org-publish-org-to-html
+         ;;:section-numbers nil
+         ;;:auto-preamble t
+         ;;:table-of-contents nil
+         ;;:style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
+         ;;:style-include-default t
+         ;;:author-info t
+         ;;:email-info nil
+         ;;:creator-info t
+         )
+        ;; ("org-static"
+        ;;  :base-directory "~/WikiNotes/org"
+        ;;  :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
+        ;;  :publishing-directory "~/WikiNotes/publish"
+        ;;  :recursive t
+        ;;  :publishing-function org-publish-attachment
+        ;;  )
+        ;; ("lucas" :components ("wikinotes" "org-static"))
+        ))
 
 (setq org-export-html-mathjax-options '(
-(path "MathJax/MathJax.js")
-(align "left")
-(indent "2em")
-(scale 100)
-))
+                                        (path "MathJax/MathJax.js")
+                                        (align "left")
+                                        (indent "2em")
+                                        (scale 100)
+                                        ))
 
 ;;(global-set-key (kbd "C-c a") 'org-agenda)                                       ;; (5)
 ;;   (setq org-todo-keywords '("TODO" "STARTED" "DONE"))                    ;; (6)
