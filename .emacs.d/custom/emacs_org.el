@@ -15,35 +15,35 @@
 
 ;;   (global-set-key (kbd "C-c r") 'remember)                                        
 
-(add-to-list 'load-path "~/.emacs.d/elpa/org-20140217")
-(setq load-path (cons "~/.emacs.d/elpa/org-20140217" load-path))
-(require 'org-publish)
+;;(add-to-list 'load-path "~/.emacs.d/elpa/org-20140217")
+;;(setq load-path (cons "~/.emacs.d/elpa/org-20140217" load-path))
+;;(require 'org-publish)
 (setq org-export-with-LaTeX-fragments t)
 (setq org-publish-project-alist
       '(
         ("wikinotes"
          :base-directory "~/WikiNotes/org/" ;Wikinote part
-         ;; :base-extension "org"
+         :base-extension "org"
          :publishing-directory "~/WikiNotes/publish/"
-         ;; :recursive t
-         :publishing-function org-publish-org-to-html
-         ;;:section-numbers nil
-         ;;:auto-preamble t
-         ;;:table-of-contents nil
-         ;;:style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
-         ;;:style-include-default t
-         ;;:author-info t
-         ;;:email-info nil
-         ;;:creator-info t
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :section-numbers nil
+         :auto-preamble t
+         :table-of-contents nil
+         :style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
+         :style-include-default t
+         :author-info t
+         :email-info nil
+         :creator-info t
          )
-        ;; ("org-static"
-        ;;  :base-directory "~/WikiNotes/org"
-        ;;  :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
-        ;;  :publishing-directory "~/WikiNotes/publish"
-        ;;  :recursive t
-        ;;  :publishing-function org-publish-attachment
-        ;;  )
-        ;; ("lucas" :components ("wikinotes" "org-static"))
+        ("org-static"
+         :base-directory "~/WikiNotes/org"
+         :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
+         :publishing-directory "~/WikiNotes/publish"
+         :recursive t
+         :publishing-function org-publish-attachment
+         )
+        ("lucas" :components ("wikinotes" "org-static"))
         ))
 
 (setq org-export-html-mathjax-options '(

@@ -1,11 +1,11 @@
 ;;cedet
-(load-file "~/.emacs.d/cedet-1.1/common/cedet.elc")
+;;(load-file "~/.emacs.d/cedet-1.1/common/cedet.elc")
 ;;(global-ede-mode 1)                      ; Enable the Project management system
-(semantic-load-enable-gaudy-code-helpers)   ; Enable prototype help and smart completion 
-(semantic-load-enable-semantic-debugging-helpers)
+;;(semantic-load-enable-gaudy-code-helpers)   ; Enable prototype help and smart completion 
+;;(semantic-load-enable-semantic-debugging-helpers)
 
-(require 'semantic-ia)
-(require 'semantic-gcc)
+;;(require 'semantic-ia)
+;;(require 'semantic-gcc)
 
 ;;(eval-after-load "semantic-c" 
 ;;'(dolist (d (list "/usr/include/c++/4.4"
@@ -32,7 +32,8 @@
 ;;	"/usr/lib/gcc/i486-linux-gnu/4.4.1/include"
 ;;	"/usr/lib/gcc/i486-linux-gnu/4.4.1/include-fixed"
 ;;	"/usr/include"))
-;;(semantic-add-system-include cedet-include-dirs 'c++-mode)        
+;;(semantic-add-system-include cedet-include-dirs 'c++-mode)
+
 (require 'semantic-c nil 'noerror)
 (let ((include-dirs cedet-user-include-dirs))
   (mapc (lambda (dir)
