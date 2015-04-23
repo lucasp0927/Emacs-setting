@@ -29,6 +29,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/go-mode"))
 (require 'julia-mode)
 (require 'go-mode-load)
+(load "pandoc-mode")
 ;(add-to-list 'load-path "~/.emacs.d/w3m")
 ;; (load "~/.emacs.d/ess-5.12/lisp/ess-site")
 ;;(load "emacs_cedet")
