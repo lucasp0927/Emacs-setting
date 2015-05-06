@@ -80,15 +80,21 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (zenburn)))
- '(custom-safe-themes (quote ("1b4607068361e46f5d673e33e4e731277d8687ddf33d65185ee42a093fa8cb11" "d6a00ef5e53adf9b6fe417d2b4404895f26210c52bb8716971be106550cea257" default)))
+ '(custom-safe-themes
+   (quote
+    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
  '(custom-theme-load-path (quote ("~/.emacs.d/theme" t)))
- '(ecb-layout-window-sizes nil))
+ '(ecb-layout-window-sizes nil)
+ '(frame-background-mode (quote dark)))
+
+(load-theme 'solarized t)
+
+;;MATLAB
+(add-to-list 'load-path "~/.emacs.d/matlab-emacs")
+  (load-library "matlab-load")
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-
