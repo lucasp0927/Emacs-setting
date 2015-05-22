@@ -29,7 +29,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/go-mode"))
 (require 'julia-mode)
 (require 'go-mode-load)
-(load "pandoc-mode")
+;;(load "pandoc-mode")
 ;(add-to-list 'load-path "~/.emacs.d/w3m")
 ;; (load "~/.emacs.d/ess-5.12/lisp/ess-site")
 ;;(load "emacs_cedet")
@@ -90,11 +90,11 @@
 (load-theme 'solarized t)
 
 ;;MATLAB
-(add-to-list 'load-path "~/.emacs.d/matlab-emacs")
-  (load-library "matlab-load")
-(custom-set-faces
+;;(add-to-list 'load-path "~/.emacs.d/matlab-emacs")
+;;  (load-library "matlab-load")
+;;(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+;; )
