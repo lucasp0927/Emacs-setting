@@ -7,10 +7,14 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-log-done t)
 (setq org-agenda-files (list "~/GTD-org/work.org"
-                             "~/GTD-org/study.org" 
+                             "~/GTD-org/study.org"
+                             "~/GTD-org/entertainment.org"                              
                              "~/GTD-org/home.org"))
+(define-key global-map "\C-cc" 'org-capture)
 (setq org-default-notes-file "~/GTD-org/inbox.org")
-     (define-key global-map "\C-cc" 'org-capture)
+(setq org-refile-targets
+      '((nil :maxlevel . 2)
+        (org-agenda-files :maxlevel . 2)))
 ;;(add-to-list 'load-path "/home/lucaspeng/.emacs.d/remember-2.0")                                
 ;;   (require 'remember-autoloads)
 ;;   (setq org-remember-templates
