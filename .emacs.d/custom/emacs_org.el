@@ -1,5 +1,16 @@
-;;Org mode
 
+;;Org mode
+(require 'org)
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-cb" 'org-iswitchb)
+(setq org-log-done t)
+(setq org-agenda-files (list "~/GTD-org/work.org"
+                             "~/GTD-org/study.org" 
+                             "~/GTD-org/home.org"))
+(setq org-default-notes-file "~/GTD-org/inbox.org")
+     (define-key global-map "\C-cc" 'org-capture)
 ;;(add-to-list 'load-path "/home/lucaspeng/.emacs.d/remember-2.0")                                
 ;;   (require 'remember-autoloads)
 ;;   (setq org-remember-templates
@@ -18,40 +29,40 @@
 ;;(add-to-list 'load-path "~/.emacs.d/elpa/org-20140217")
 ;;(setq load-path (cons "~/.emacs.d/elpa/org-20140217" load-path))
 ;;(require 'org-publish)
-(setq org-export-with-LaTeX-fragments t)
-(setq org-publish-project-alist
-      '(
-        ("wikinotes"
-         :base-directory "~/WikiNotes/org/" ;Wikinote part
-         :base-extension "org"
-         :publishing-directory "~/WikiNotes/publish/"
-         :recursive t
-         :publishing-function org-html-publish-to-html
-         :section-numbers nil
-         :auto-preamble t
-         :table-of-contents nil
-         :style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
-         :style-include-default t
-         :author-info t
-         :email-info nil
-         :creator-info t
-         )
-        ("org-static"
-         :base-directory "~/WikiNotes/org"
-         :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
-         :publishing-directory "~/WikiNotes/publish"
-         :recursive t
-         :publishing-function org-publish-attachment
-         )
-        ("lucas" :components ("wikinotes" "org-static"))
-        ))
+;;(setq org-export-with-LaTeX-fragments t)
+;; (setq org-publish-project-alist
+;;       '(
+;;         ("wikinotes"
+;;          :base-directory "~/WikiNotes/org/" ;Wikinote part
+;;          :base-extension "org"
+;;          :publishing-directory "~/WikiNotes/publish/"
+;;          :recursive t
+;;          :publishing-function org-html-publish-to-html
+;;          :section-numbers nil
+;;          :auto-preamble t
+;;          :table-of-contents nil
+;;          :style "<link rel='stylesheet' type='text/css' href='css/style.css' /><script type='text/javascript' src='js/jquery.js'></script><script type='text/javascript' src='js/toggle.js'></script>"
+;;          :style-include-default t
+;;          :author-info t
+;;          :email-info nil
+;;          :creator-info t
+;;          )
+;;         ("org-static"
+;;          :base-directory "~/WikiNotes/org"
+;;          :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|img"
+;;          :publishing-directory "~/WikiNotes/publish"
+;;          :recursive t
+;;          :publishing-function org-publish-attachment
+;;          )
+;;         ("lucas" :components ("wikinotes" "org-static"))
+;;         ))
 
-(setq org-export-html-mathjax-options '(
-                                        (path "MathJax/MathJax.js")
-                                        (align "left")
-                                        (indent "2em")
-                                        (scale 100)
-                                        ))
+;; (setq org-export-html-mathjax-options '(
+;;                                         (path "MathJax/MathJax.js")
+;;                                         (align "left")
+;;                                         (indent "2em")
+;;                                         (scale 100)
+;;                                         ))
 
 ;;(global-set-key (kbd "C-c a") 'org-agenda)                                       ;; (5)
 ;;   (setq org-todo-keywords '("TODO" "STARTED" "DONE"))                    ;; (6)
