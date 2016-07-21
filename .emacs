@@ -99,11 +99,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
 ;; )
-<<<<<<< HEAD
-(global-linum-mode 1)
-=======
-
 (global-linum-mode 1)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (setq require-final-newline t)
->>>>>>> e015915fd44dce2acf982232d50063dc7d5b7d7e
