@@ -1,13 +1,13 @@
 ;;Lucas Peng's .emacs
 ;;All the elisp I collect
-;;auctex 
-;;auto-complete 
-;;cdlatex 
-;;cedet 
-;;ecb 
-;;org-mode 
-;;python-mode 
-;;session 
+;;auctex
+;;auto-complete
+;;cdlatex
+;;cedet
+;;ecb
+;;org-mode
+;;python-mode
+;;session
 ;;autopair
 ;;template
 ;;window-number
@@ -26,9 +26,10 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/ecb-snap"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/org-mode"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/custom"))
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/go-mode"))
+;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/go-mode"))
+(add-to-list 'load-path "~/.emacs.d/lisp/julia-mode.el")
 (require 'julia-mode)
-(require 'go-mode-load)
+;;(require 'go-mode-load)
 ;;(load "pandoc-mode")
 ;(add-to-list 'load-path "~/.emacs.d/w3m")
 ;; (load "~/.emacs.d/ess-5.12/lisp/ess-site")
@@ -63,11 +64,11 @@
 (require 'undo-tree)
 ;;(require 'typing-speed)
 ;;Session and desktop  need to put at last
-;;使用了这个扩展之后，你上次离开 Emacs 时的全局变量 (kill-ring，命令记录……)，局部变量，寄存器，打开的文件，修改过的文件和最后修改的位置，…… 全部都会被记录下来。 
+;;使用了这个扩展之后，你上次离开 Emacs 时的全局变量 (kill-ring，命令记录……)，局部变量，寄存器，打开的文件，修改过的文件和最后修改的位置，…… 全部都会被记录下来。
 ; (require 'session)
  ;(add-hook 'after-init-hook 'session-initialize)
-;;(load "desktop") 
-;;(desktop-load-default) 
+;;(load "desktop")
+;;(desktop-load-default)
 ;;(desktop-read)
 (setq-default indent-tabs-mode nil)
 ;; enable narrow
@@ -98,4 +99,11 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
 ;; )
+<<<<<<< HEAD
 (global-linum-mode 1)
+=======
+
+(global-linum-mode 1)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(setq require-final-newline t)
+>>>>>>> e015915fd44dce2acf982232d50063dc7d5b7d7e
