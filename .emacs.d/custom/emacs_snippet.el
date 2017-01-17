@@ -3,4 +3,3 @@
 (yas-global-mode 1)
 ;;(yas/initialize)
 ;;(yas/load-directory "~/.emacs.d/yasnippet-0.6.1c/snippets/")
-

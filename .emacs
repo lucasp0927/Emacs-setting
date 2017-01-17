@@ -84,9 +84,10 @@
  '(custom-safe-themes
    (quote
     ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
- '(custom-theme-load-path (quote ("~/.emacs.d/theme" t)))
+ '(custom-theme-load-path (quote ("~/.emacs.d/theme" t)) t)
  '(ecb-layout-window-sizes nil)
- '(frame-background-mode (quote dark)))
+ '(frame-background-mode (quote dark))
+ '(package-selected-packages (quote (yasnippet undo-tree rainbow-mode org minimap))))
 
 (load-theme 'solarized t)
 
@@ -105,3 +106,9 @@
 
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
