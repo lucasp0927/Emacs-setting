@@ -103,7 +103,7 @@
  '(frame-background-mode (quote dark))
  '(package-selected-packages
    (quote
-    (yasnippet-snippets gruvbox-theme yasnippet undo-tree rainbow-mode org minimap))))
+    (auctex yasnippet-snippets gruvbox-theme yasnippet undo-tree rainbow-mode org minimap))))
 
 (load-theme 'gruvbox-dark-medium t)
 
