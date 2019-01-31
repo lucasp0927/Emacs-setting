@@ -55,7 +55,7 @@
 (setq user-mail-address "lucasp0927@gmail.com")
 
 ;; make emacs use the system clipboard, so that text copy in emacs can paste to other place.
-(setq x-select-enable-clipboard t)
+(setq select-enable-clipboard t)
 ;; this line causes cut/paste errors under windows (emacs 24)
 (if (eq system-type 'gnu/linux) (setq interprogram-paste-function 'x-cut-buffer-or-selection-value) )
 ;; (setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
@@ -284,7 +284,7 @@
 
 (setq dired-dwim-target t)
 ;; Now, when you have dired of different dir in 2 panes,
-;; and when you press C to copy, the other dir in the split pane will be default destination. 
+;; and when you press C to copy, the other dir in the split pane will be default destination.
 
 ;; allow dired to be able to delete or copy a whole dir.
 ;; “always” means no asking. “top” means ask once. Any other symbol means ask each and every time for a dir and subdir.
@@ -306,8 +306,8 @@
 
 (setq-default indent-tabs-mode nil) ; always replace tabs with spaces
 (setq-default tab-width 4) ; set tab width to 4 for all buffers
-;;The variable redisplay-dont-pause, when set to t, will cause Emacs to fully redraw the display before it processes queued input events. 
-(setq redisplay-dont-pause t)
+;;The variable redisplay-dont-pause, when set to t, will cause Emacs to fully redraw the display before it processes queued input events.
+;;(setq redisplay-dont-pause t)
 ;; folding
           ;; (autoload 'folding-mode          "folding" "Folding mode" t)
           ;; (autoload 'turn-off-folding-mode "folding" "Folding mode" t)
