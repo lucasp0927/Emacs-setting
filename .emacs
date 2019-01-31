@@ -12,7 +12,19 @@
 ;;template
 ;;window-number
 ;; key bindings
-(require 'package) (package-initialize)
+(require 'package)
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (proto (if no-ssl "http" "https")))
+  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+;;  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  (add-to-list 'package-archives
+               '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+  ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
+  (when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
+(package-initialize)
 (when (eq system-type 'darwin) ;; mac specific settings
  (setq mac-option-modifier 'alt)
  (setq mac-command-modifier 'meta)
@@ -50,7 +62,7 @@
 
 (load "emacs_misc")
 (load "emacs_org")
-(load "emacs_snippet")
+;;(load "emacs_snippet")
 (load "emacs_latex")
 ;;(load "emacs_autocomplete")
 ;;(load "emacs_verilog")
@@ -83,13 +95,17 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
- '(custom-theme-load-path (quote ("~/.emacs.d/theme" t)) t)
+    ("cd4d1a0656fee24dc062b997f54d6f9b7da8f6dc8053ac858f15820f9a04a679" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
+ '(custom-theme-load-path
+   (quote
+    ("/Users/lucaspeng/.emacs.d/elpa/gruvbox-theme-1.26.0" t)) t)
  '(ecb-layout-window-sizes nil)
  '(frame-background-mode (quote dark))
- '(package-selected-packages (quote (yasnippet undo-tree rainbow-mode org minimap))))
+ '(package-selected-packages
+   (quote
+    (yasnippet-snippets gruvbox-theme yasnippet undo-tree rainbow-mode org minimap))))
 
-(load-theme 'solarized t)
+(load-theme 'gruvbox-dark-medium t)
 
 ;;MATLAB
 ;;(add-to-list 'load-path "~/.emacs.d/matlab-emacs")
