@@ -6,16 +6,18 @@
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-log-done t)
-(setq org-agenda-files (list "~/GTD-org/work.org"
-                             "~/GTD-org/study.org"
-                             "~/GTD-org/entertainment.org"                              
-                             "~/GTD-org/home.org"))
-(define-key global-map "\C-cc" 'org-capture)
-(setq org-default-notes-file "~/GTD-org/inbox.org")
-(setq org-refile-targets
-      '((nil :maxlevel . 2)
-        (org-agenda-files :maxlevel . 2)))
-;;(add-to-list 'load-path "/home/lucaspeng/.emacs.d/remember-2.0")                                
+;; (setq org-agenda-files (list "~/GTD-org/work.org"
+;;                              "~/GTD-org/study.org"
+;;                              "~/GTD-org/entertainment.org"
+;;                              "~/GTD-org/home.org"))
+;; (define-key global-map "\C-cc" 'org-capture)
+;; (setq org-default-notes-file "~/GTD-org/inbox.org")
+;; (setq org-refile-targets
+;;       '((nil :maxlevel . 2)
+;;         (org-agenda-files :maxlevel . 2)))
+(add-to-list 'org-drawers "NOTES")
+
+;;(add-to-list 'load-path "/home/lucaspeng/.emacs.d/remember-2.0")
 ;;   (require 'remember-autoloads)
 ;;   (setq org-remember-templates
 ;;      '(("Tasks" ?t "* TODO %?\n  %i\n  %a" "/home/lucaspeng/homework/todo/todo.org")
@@ -28,7 +30,7 @@
 ;;;;     (setq org-directory "~/homework/todo")
 ;;;;     (setq org-default-notes-file (concat org-directory "/todo.org"))
 
-;;   (global-set-key (kbd "C-c r") 'remember)                                        
+;;   (global-set-key (kbd "C-c r") 'remember)
 
 ;;(add-to-list 'load-path "~/.emacs.d/elpa/org-20140217")
 ;;(setq load-path (cons "~/.emacs.d/elpa/org-20140217" load-path))
@@ -71,7 +73,7 @@
 ;;(global-set-key (kbd "C-c a") 'org-agenda)                                       ;; (5)
 ;;   (setq org-todo-keywords '("TODO" "STARTED" "DONE"))                    ;; (6)
 ;;;;   (setq org-agenda-include-diary t)                                                ;; (7)
-;;   (setq org-agenda-include-all-todo t)    
+;;   (setq org-agenda-include-all-todo t)
 ;;(setq org-agenda-files (file-expand-wildcards "~/Dropbox/todo/*.org"))
 ;;
 ;;(setq org-agenda-custom-commands
@@ -79,12 +81,3 @@
 ;;((agenda "")
 ;;(tags "HOMEWORK")
 ;;(tags "STUDY")))))
-
-
-
-
-
-
-
-
-
