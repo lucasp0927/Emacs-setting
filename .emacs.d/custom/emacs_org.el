@@ -19,7 +19,7 @@
 ;; (add-to-list 'org-drawers "NOTES")
 ;;(setq org-latex-pdf-process '("texi2dvi -p -b -V %f"))
 ;; (setq org-latex-pdf-process (list "latexmk -pdf -f %f"))
-(setq org-latex-pdf-process (quote ("pdflatex -interaction nonstopmode %f" "bibtex %b" "pdflatex -interaction nonstopmode %f" "pdflatex -interaction nonstopmode %f")))
+(setq org-latex-pdf-process (quote ("pdflatex -interaction nonstopmode -shell-escape %f" "bibtex %b" "pdflatex -interaction nonstopmode -shell-escape %f" "pdflatex -interaction nonstopmode -shell-escape %f")))
 ;;(add-to-list 'load-path "/home/lucaspeng/.emacs.d/remember-2.0")
 ;;   (require 'remember-autoloads)
 ;;   (setq org-remember-templates
