@@ -1,6 +1,7 @@
 
 ;;Org mode
 (require 'org)
+;;(require 'ox-bibtex)
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
@@ -15,8 +16,12 @@
 ;; (setq org-refile-targets
 ;;       '((nil :maxlevel . 2)
 ;;         (org-agenda-files :maxlevel . 2)))
-(add-to-list 'org-drawers "NOTES")
-
+;; (add-to-list 'org-drawers "NOTES")
+;;(setq org-latex-pdf-process '("texi2dvi -p -b -V %f"))
+;; (setq org-latex-pdf-process (list "latexmk -pdf -f %f"))
+(setq org-latex-pdf-process (quote ("texi2dvi --pdf --clean --verbose
+--batch %f" "bibtex %b" "texi2dvi --pdf --clean --verbose --batch %f"
+"texi2dvi --pdf --clean --verbose --batch %f")))
 ;;(add-to-list 'load-path "/home/lucaspeng/.emacs.d/remember-2.0")
 ;;   (require 'remember-autoloads)
 ;;   (setq org-remember-templates
